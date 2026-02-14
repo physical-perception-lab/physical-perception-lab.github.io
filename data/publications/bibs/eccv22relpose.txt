@@ -1,0 +1,6 @@
+@InProceedings{zhang2022relpose,
+    title = {{RelPose}: Predicting Probabilistic Relative Rotation for Single Objects in the Wild},
+    author = {Zhang, Jason Y. and Ramanan, Deva and Tulsiani, Shubham},
+    booktitle = {European Conference on Computer Vision},
+    year = {2022}
+}

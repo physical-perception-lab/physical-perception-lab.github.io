@@ -1,0 +1,9 @@
+title:: Track2Act: Predicting Point Tracks from Internet Videos Enables Diverse Zero-shot Manipulation
+img:: https://homangab.github.io/pics/glimpse.gif
+author:: Homanga Bharadhwaj, Roozbeh Mottaghi*, Abhinav Gupta*, Shubham Tulsiani*
+venue:: ECCV, 2024
+pdf:: https://arxiv.org/pdf/2405.01527
+project page:: https://homangab.github.io/track2act/
+bibtex:: bibs/eccv24track2act.txt
+code:: https://github.com/homangab/Track-2-Act/
+topics:: robot-learning

@@ -1,0 +1,11 @@
+title:: Articulation-aware Canonical Surface Mapping
+img:: figures/cvpr20acsm.png
+author:: Nilesh Kulkarni, Abhinav Gupta, David Fouhey, Shubham Tulsiani
+venue:: CVPR, 2020
+pdf:: https://arxiv.org/pdf/2004.00614.pdf
+project page:: https://nileshkulkarni.github.io/acsm/
+abstract:: abs/cvpr20acsm.txt
+bibtex:: bibs/cvpr20acsm.txt
+video:: https://youtu.be/qgVwjkO2ltw
+code:: http://www.github.com/nileshkulkarni/acsm/
+topics:: object-understanding

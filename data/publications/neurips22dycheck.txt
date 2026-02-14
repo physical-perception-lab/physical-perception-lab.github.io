@@ -1,0 +1,9 @@
+title:: Monocular Dynamic View Synthesis: A Reality Check
+img:: figures/neurips22dycheck.gif
+author:: Hang Gao, Ruilong Li, Shubham Tulsiani, Bryan Russell, Angjoo Kanazawa
+venue:: NeurIPS, 2022
+pdf:: https://arxiv.org/pdf/2210.13445
+project page:: https://hangg7.com/dycheck/
+bibtex:: bibs/neurips22dycheck.txt
+code:: https://github.com/KAIR-BAIR/dycheck/
+topics:: neural-rendering

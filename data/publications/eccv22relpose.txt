@@ -1,0 +1,10 @@
+title:: RelPose: Predicting Probabilistic Relative Rotation for Single Objects in the Wild
+img:: ./figures/eccv22relpose.gif
+author:: Jason Y. Zhang, Deva Ramanan, Shubham Tulsiani
+venue:: ECCV, 2022
+pdf:: https://jasonyzhang.com/relpose/resources/Relpose_ECCV_2022.pdf
+project page:: https://jasonyzhang.com/relpose/
+abstract:: abs/eccv22relpose.txt
+bibtex:: bibs/eccv22relpose.txt
+code:: https://github.com/jasonyzhang/relpose
+topics:: 3d-reconstruction

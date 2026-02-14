@@ -1,0 +1,8 @@
+title:: Mesh2Tex: Generating Mesh Textures from Image Queries
+img:: figures/iccv23texture.png
+author:: Alexey Bokhovkin, Shubham Tulsiani, Angela Dai
+venue:: ICCV, 2023
+pdf:: https://arxiv.org/pdf/2304.05868
+project page:: https://alexeybokhovkin.github.io/mesh2tex/
+bibtex:: bibs/iccv23texture.txt
+topics:: neural-rendering, generative-models

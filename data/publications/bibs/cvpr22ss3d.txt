@@ -1,0 +1,6 @@
+@inProceedings{vasudev2022ss3d,
+  title={Pre-train, Self-train, Distill: A simple recipe for Supersizing 3D Reconstruction},
+  author={Alwala, Kalyan Vasudev and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2022},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}

@@ -1,0 +1,6 @@
+@inproceedings{ye2024ghop,
+    author = {Ye, Yufei and Gupta, Abhinav and Kitani, Kris and Tulsiani, Shubham}
+    title = {G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis},
+    booktitle={CVPR},
+    year={2024}
+}

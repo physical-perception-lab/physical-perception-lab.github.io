@@ -1,0 +1,6 @@
+@inproceedings{chitnis20synergy,
+  title={Intrinsic Motivation for Encouraging Synergistic Behavior},
+  author={Chitnis, Rohan and Tulsiani, Shubham and Gupta, Saurabh and Gupta, Abhinav},
+  booktitle={ICLR},
+  year={2020}
+}

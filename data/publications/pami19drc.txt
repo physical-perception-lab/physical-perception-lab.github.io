@@ -1,0 +1,9 @@
+title:: Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency
+img:: figures/pami19drc.png
+author:: Shubham Tulsiani, Tinghui Zhou, Alexei A. Efros, Jitendra Malik
+venue:: TPAMI, 2019  (journal version combining <a href="https://shubhtuls.github.io/drc/">DRC</a> and <a href="https://shubhtuls.github.io/mvcSnP/">MVC</a>)
+pdf:: papers/pami19drc.pdf
+abstract:: abs/pami19drc.txt
+bibtex:: bibs/pami19drc.txt
+code:: https://github.com/shubhtuls/drc
+topics:: 3d-reconstruction

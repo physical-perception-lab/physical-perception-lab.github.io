@@ -1,0 +1,9 @@
+title:: Pose Induction for Novel Object Categories
+img:: figures/iccv15poseInd.png
+author:: Shubham Tulsiani, Jo&atilde;o Carreira, Jitendra Malik
+venue:: ICCV, 2015
+pdf:: https://arxiv.org/pdf/1505.00066.pdf
+abstract:: abs/iccv15pose.txt
+bibtex:: bibs/iccv15pose.txt
+code:: https://github.com/shubhtuls/poseInduction
+topics:: object-understanding

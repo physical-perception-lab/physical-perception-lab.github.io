@@ -1,0 +1,9 @@
+title:: Manipulate by Seeing: Creating Manipulation Controllers from Pre-Trained Representations
+img:: https://sudeepdasari.github.io/research/manipulate_by_seeing/test.gif
+author:: Jianren Wang*, Sudeep Dasari*, Mohan Kumar Srirama, Shubham Tulsiani, Abhinav Gupta
+venue:: ICCV, 2023
+pdf:: https://arxiv.org/pdf/2303.08135
+project page:: https://agi-labs.github.io/manipulate-by-seeing/
+bibtex:: bibs/iccv23control.txt
+code:: https://github.com/AGI-Labs/manipulate-by-seeing
+topics:: robot-learning

@@ -1,0 +1,9 @@
+title:: G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis
+img:: figures/cvpr24ghop.png
+author:: Yufei Ye, Abhinav Gupta, Kris Kitani, Shubham Tulsiani
+venue:: CVPR, 2024
+pdf:: https://arxiv.org/pdf/2404.12383
+project page:: https://judyye.github.io/ghop-www/
+bibtex:: bibs/cvpr24ghop.txt
+code:: https://github.com/JudyYe/ghop
+topics:: 3d-reconstruction, object-understanding

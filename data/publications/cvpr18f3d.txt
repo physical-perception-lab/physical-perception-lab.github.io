@@ -1,0 +1,10 @@
+title:: Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene
+img:: https://shubhtuls.github.io/factored3d/resources/images/teaser.png
+author:: Shubham Tulsiani, Saurabh Gupta, David Fouhey, Alexei A. Efros, Jitendra Malik
+venue:: CVPR, 2018
+pdf:: https://arxiv.org/pdf/1712.01812.pdf
+project page:: https://shubhtuls.github.io/factored3d/
+abstract:: abs/cvpr18f3d.txt
+bibtex:: bibs/cvpr18f3d.txt
+code:: https://github.com/shubhtuls/factored3d
+topics:: 3d-reconstruction

@@ -1,0 +1,9 @@
+title:: Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans
+img:: figures/icra24hopman.gif
+author:: Homanga Bharadhwaj, Abhinav Gupta*, Vikash Kumar*, Shubham Tulsiani*
+venue:: ICRA, 2024
+pdf:: https://homangab.github.io/hopman/hopman_paper_appendix.pdf
+project page:: https://homangab.github.io/hopman/
+bibtex:: bibs/icra24hopman.txt
+note:: Finalist for Best Paper Award in Robot Manipulation
+topics:: robot-learning

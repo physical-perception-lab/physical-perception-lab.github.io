@@ -1,0 +1,8 @@
+title:: Turbo3D: Ultra-fast Text-to-3D Generation
+img:: https://hzhupku.github.io/image/pubpage/turbo3d.gif
+author:: Hanzhe Hu, Tianwei Yin, Fujun Luan, Yiwei Hu, Hao Tan, Zexiang Xu, Sai Bi, Shubham Tulsiani*, Kai Zhang*
+venue:: CVPR, 2025
+pdf:: https://arxiv.org/pdf/2412.04470
+project page:: https://turbo-3d.github.io/
+bibtex:: bibs/cvpr25turbo3d.txt
+topics:: 3d-reconstruction, generative-models

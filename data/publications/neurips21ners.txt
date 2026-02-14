@@ -1,0 +1,11 @@
+title:: NeRS: Neural Reflectance Surfaces for Sparse-view 3D Reconstruction in the Wild
+img:: figures/neurips21ners.gif
+author:: Jason Y. Zhang, Gengshan Yang, Shubham Tulsiani*, and Deva Ramanan*
+venue:: NeurIPS, 2021
+pdf:: https://arxiv.org/pdf/2110.07604
+project page:: https://jasonyzhang.com/ners/
+abstract:: abs/neurips21ners.txt
+bibtex:: bibs/neurips21ners.txt
+video:: https://youtu.be/zVyaw_sn1xM
+code:: https://github.com/jasonyzhang/ners
+topics:: neural-rendering, 3d-reconstruction

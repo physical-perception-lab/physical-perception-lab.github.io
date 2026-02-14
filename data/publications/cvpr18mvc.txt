@@ -1,0 +1,10 @@
+title:: Multi-view Consistency as Supervisory Signal for Learning Shape and Pose Prediction
+img:: figures/arxiv18mvc.png
+author:: Shubham Tulsiani, Alexei A. Efros, Jitendra Malik
+venue:: CVPR, 2018
+pdf:: https://arxiv.org/pdf/1801.03910.pdf
+project page:: https://shubhtuls.github.io/mvcSnP/
+abstract:: abs/cvpr18mvc.txt
+bibtex:: bibs/cvpr18mvc.txt
+code:: https://github.com/shubhtuls/mvcSnP
+topics:: 3d-reconstruction

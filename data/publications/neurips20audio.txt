@@ -1,0 +1,11 @@
+title:: See, Hear, Explore: Curiosity via Audio-Visual Association
+img:: https://vdean.github.io/images/audio-curiosity.png
+author:: Victoria Dean, Shubham Tulsiani, Abhinav Gupta
+venue:: NeurIPS, 2020
+pdf:: https://vdean.github.io/resources/audio-curiosity2020.pdf
+project page:: https://vdean.github.io/audio-curiosity.html
+abstract:: abs/neurips20audio.txt
+bibtex:: bibs/neurips20audio.txt
+video:: https://youtu.be/DMiW5hwsoeo
+code:: https://github.com/vdean/audio-curiosity
+topics:: robot-learning

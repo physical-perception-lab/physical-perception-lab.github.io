@@ -1,0 +1,9 @@
+title:: Cameras as Rays: Pose Estimation via Ray Diffusion
+img:: https://jasonyzhang.com/assets/img/ray_diffusion_book_small.mp4
+author:: Jason Y. Zhang*, Amy Lin*, Moneish Kumar, Tzu-Hsuan Yang, Deva Ramanan, Shubham Tulsiani
+venue:: ICLR, 2024
+pdf:: https://arxiv.org/pdf/2402.14817.pdf
+project page:: https://jasonyzhang.com/RayDiffusion/
+bibtex:: bibs/iclr24rays.txt
+code:: https://github.com/jasonyzhang/RayDiffusion
+topics:: 3d-reconstruction

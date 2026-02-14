@@ -1,0 +1,6 @@
+@inproceedings{bharadhwaj2024track2act,
+  author    = {Homanga Bharadhwaj and Roozbeh Mottaghi and Abhinav Gupta and Shubham Tulsiani},
+  title     = {Track2Act: Predicting Point Tracks from Internet Videos enables Diverse Zero-shot Robot Manipulation},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year      = {2024}
+}

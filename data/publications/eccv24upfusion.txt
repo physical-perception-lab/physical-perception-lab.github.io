@@ -1,0 +1,9 @@
+title:: UpFusion: Novel View Diffusion from Unposed Sparse View Observations
+img:: https://bharathrajn.com/assets/img/publication_preview/ITW_lock.gif
+author:: Bharath Raj Nagoor Kani, Hsin-Ying Lee, Sergey Tulyakov, Shubham Tulsiani
+venue:: ECCV, 2024
+pdf:: https://arxiv.org/pdf/2312.06661.pdf
+project page:: https://upfusion3d.github.io/
+bibtex:: bibs/eccv24upfusion.txt
+code:: https://github.com/upfusion3d/upfusion
+topics:: 3d-reconstruction, generative-models

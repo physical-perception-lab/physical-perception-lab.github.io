@@ -1,0 +1,8 @@
+title:: Amodal Completion and Size Constancy in Natural Scenes
+img:: figures/iccv15amodal.png
+author:: Abhishek Kar, Shubham Tulsiani, Jo&atilde;o Carreira, Jitendra Malik
+venue:: ICCV, 2015
+pdf:: https://arxiv.org/pdf/1509.08147.pdf
+abstract:: abs/iccv15amodal.txt
+bibtex:: bibs/iccv15amodal.txt
+topics:: object-understanding

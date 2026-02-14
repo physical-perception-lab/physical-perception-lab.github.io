@@ -1,0 +1,6 @@
+@inproceedings{park2026demodiffusion,
+	title={DemoDiffusion: One-Shot Human Imitation using Pre-trained Diffusion Policy},
+	author={Sungjae Park and Homanga Bharadhwaj and Shubham Tulsiani},
+	booktitle = {ICRA},
+	year={2026}
+}

@@ -1,0 +1,9 @@
+title:: UniPhy: Learning a Unified Constitutive Model for Inverse Physics Simulation
+img:: https://himangim.github.io/images/grid_animation.gif
+author:: Himangi Mittal, Peiye Zhuang, Hsin-Ying Lee, Shubham Tulsiani
+venue:: CVPR, 2025
+pdf:: https://arxiv.org/pdf/2505.16971
+project page:: https://himangim.github.io/UniPhy
+bibtex:: bibs/cvpr25uniphy.txt
+code:: https://github.com/HimangiM/UniPhy_CVPR2025
+topics:: physics-dynamics

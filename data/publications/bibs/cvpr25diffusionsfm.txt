@@ -1,0 +1,6 @@
+@inproceedings{zhao2025diffusionsfm,
+  title={DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion}, 
+  author={Qitao Zhao and Amy Lin and Jeff Tan and Jason Y. Zhang and Deva Ramanan and Shubham Tulsiani},
+  booktitle={CVPR},
+  year={2025} 
+}

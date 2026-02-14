@@ -1,0 +1,8 @@
+title:: A Differentiable Recipe for Learning Visual Non-Prehensile Planar Manipulation
+img:: figures/corl21planar.png
+author:: Bernardo Aceituno, Alberto Rodriguez, Shubham Tulsiani, Abhinav Gupta, Mustafa Mukadam
+venue:: CoRL, 2021
+pdf:: https://openreview.net/pdf?id=f7KaqYLO3iE
+abstract:: abs/corl21planar.txt
+bibtex:: bibs/corl21planar.txt
+topics:: robot-learning, physics-dynamics

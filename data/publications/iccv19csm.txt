@@ -1,0 +1,11 @@
+title:: Canonical Surface Mapping via Geometric Cycle Consistency
+img:: figures/iccv19csm.png
+author:: Nilesh Kulkarni, Abhinav Gupta*, Shubham Tulsiani*
+venue:: ICCV, 2019
+pdf:: https://arxiv.org/pdf/1907.10043.pdf
+project page:: https://nileshkulkarni.github.io/csm/
+abstract:: abs/iccv19csm.txt
+bibtex:: bibs/iccv19csm.txt
+video:: https://www.youtube.com/watch?v=93M3ou4mg-w
+code:: https://github.com/nileshkulkarni/csm
+topics:: object-understanding

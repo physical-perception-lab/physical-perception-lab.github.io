@@ -1,0 +1,8 @@
+title:: Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
+img:: https://homangab.github.io/pics/gen2act.gif
+author:: Homanga Bharadhwaj, Debidatta Dwibedi, Abhinav Gupta, Shubham Tulsiani, Carl Doersch, Ted Xiao, Dhruv Shah, Fei Xia, Dorsa Sadigh, Sean Kirmani
+venue:: CoRL, 2025
+pdf:: https://arxiv.org/pdf/2409.16283
+project page:: https://homangab.github.io/gen2act/
+bibtex:: bibs/corl25gen2act.txt
+topics:: robot-learning

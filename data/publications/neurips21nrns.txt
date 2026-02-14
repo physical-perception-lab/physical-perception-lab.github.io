@@ -1,0 +1,10 @@
+title:: No RL, No Simulation: Learning to Navigate without Navigating
+img:: figures/neurips21nrns.jpg
+author:: Meera Hahn, Devendra Chaplot, Shubham Tulsiani, Mustafa Mukadam, James M. Rehg, Abhinav Gupta
+venue:: NeurIPS, 2021
+pdf:: https://arxiv.org/pdf/2110.09470
+project page:: https://meerahahn.github.io/nrns/
+abstract:: abs/neurips21nrns.txt
+bibtex:: bibs/neurips21nrns.txt
+code:: https://github.com/meera1hahn/NRNS/
+topics:: robot-learning

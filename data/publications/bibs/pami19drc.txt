@@ -1,0 +1,10 @@
+@article{drcTulsiani19,
+  title={Multi-view Supervision for Single-view Reconstruction
+  via Differentiable Ray Consistency},
+  author = {Shubham Tulsiani
+  and Tinghui Zhou
+  and Alexei A. Efros
+  and Jitendra Malik},
+  journal = {TPAMI},
+  year = {2019},
+}

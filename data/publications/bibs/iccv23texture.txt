@@ -1,0 +1,6 @@
+@inproceedings{ye2023vhoi,
+        title     = {Mesh2Tex: Generating Mesh Textures from Image Queries},
+        author    = {Bokhovkin, Alexey and Tulsiani, Shubham and Dai, Angela},
+        booktitle = {ICCV},
+        year = {2023}
+}

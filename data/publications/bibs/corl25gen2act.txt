@@ -1,0 +1,6 @@
+@inProceedings{bharadhwaj2025gen2act,
+  title={Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation},
+  author={Bharadhwaj, Homanga and Dwibedi, Debidatta and Gupta, Abhinav and Tulsiani, Shubham and Doersch, Carl and Xiao, Ted and Shah, Dhruv and Xia, Fei and Sadigh, Dorsa and Kirmani, Sean},
+  year={2025},
+  booktitle={Conference on Robot Learning (CoRL)}
+}

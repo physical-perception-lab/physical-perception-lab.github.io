@@ -1,0 +1,9 @@
+title:: Predicting 4D Hand Trajectory from Monocular Videos
+img:: https://judyye.github.io/haptic-www/teaser_blank.m4v
+author:: Yufei Ye, Yao Feng, Omid Taheri, Haiwen Feng, Shubham Tulsiani*, Michael J. Black*
+venue:: 3DV, 2026
+pdf:: https://arxiv.org/pdf/2501.08329
+project page:: https://judyye.github.io/haptic-www/
+bibtex:: bibs/3dv26haptic.txt
+code:: http://github.com/judyye/haptic
+topics:: object-understanding, 3d-reconstruction

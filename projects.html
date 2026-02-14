@@ -1,0 +1,1838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Physical Perception Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><img src="assets/logo.svg" alt="" class="nav__logo-img">Physical Perception Lab</a>
+    <button class="nav__hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html" class="nav__link ">Overview</a></li>
+      <li><a href="projects.html" class="nav__link nav__link--active">Projects</a></li>
+      <li><a href="people.html" class="nav__link ">Members</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+<section class="section">
+  <div class="container">
+    <h2 class="section__title">Projects</h2>
+    <div class="filter" id="filter-bar">
+      <button class="filter__btn filter__btn--active" data-topic="all">All</button>
+      <button class="filter__btn" data-topic="3d-reconstruction">3D Reconstruction</button>
+      <button class="filter__btn" data-topic="neural-rendering">Neural Rendering</button>
+      <button class="filter__btn" data-topic="robot-learning">Robot Learning</button>
+      <button class="filter__btn" data-topic="physics-dynamics">Physics &amp; Dynamics</button>
+      <button class="filter__btn" data-topic="object-understanding">Object Understanding</button>
+      <button class="filter__btn" data-topic="generative-models">Generative Models</button>
+    </div>
+    <div id="projects-list">
+<div class="year-divider" data-year="2026">
+  <span class="year-divider__label">2026</span>
+</div>
+<div class="card--project" id="icra26demodiffusion" data-year="2026" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://demodiffusion.github.io/static/videos/main/teaser_optimized.mp4" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">DemoDiffusion: One-Shot Human Imitation using Pre-trained Diffusion Policy</div>
+    <div class="card--project__authors">Sungjae Park, Homanga Bharadhwaj, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ICRA, 2026</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2506.20668" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://demodiffusion.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('icra26demodiffusionBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/demodiffusion/demodiffusion" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="icra26demodiffusionBib">@inproceedings{park2026demodiffusion,
+	title={DemoDiffusion: One-Shot Human Imitation using Pre-trained Diffusion Policy},
+	author={Sungjae Park and Homanga Bharadhwaj and Shubham Tulsiani},
+	booktitle = {ICRA},
+	year={2026}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iclr26crisp" data-year="2026" data-topics="physics-dynamics,3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://crisp-real2sim.github.io/CRISP-Real2Sim/static/videos/demo_video.mp4" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives</div>
+    <div class="card--project__authors">Zihan Wang, Jiashun Wang, Jeff Tan, Yiwen Zhao, Jessica K. Hodgins, <strong>Shubham Tulsiani</strong>, Deva Ramanan</div>
+    <div class="card--project__venue">ICLR, 2026</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2512.14696" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://crisp-real2sim.github.io/CRISP-Real2Sim/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iclr26crispBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/Z1hanW/CRISP-Real2Sim" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iclr26crispBib">@inproceedings{wang2026crisp,
+	title={Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives},
+	author={Zihan Wang and Jiashun Wang and Jeff Tan and Yiwen Zhao and Jessica K. Hodgins and Shubham Tulsiani and Deva Ramanan},
+	booktitle = {ICLR},
+	year={2026}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Physics & Dynamics</span>
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="3dv26haptic" data-year="2026" data-topics="object-understanding,3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://judyye.github.io/haptic-www/teaser_blank.m4v" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Predicting 4D Hand Trajectory from Monocular Videos</div>
+    <div class="card--project__authors">Yufei Ye, Yao Feng, Omid Taheri, Haiwen Feng, <strong>Shubham Tulsiani</strong>*, Michael J. Black*</div>
+    <div class="card--project__venue">3DV, 2026</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2501.08329" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/haptic-www/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('3dv26hapticBib')">bibtex</a>
+      <a class="card--project__link" href="http://github.com/judyye/haptic" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="3dv26hapticBib">@inproceedings{ye2026haptic,
+	title={Predicting 4D Hand Trajectory from Monocular Videos},
+	author={Yufei Ye and Yao Feng and Omid Taheri and Haiwen Feng and Shubham Tulsiani and Michael J. Black},
+	booktitle = {3DV},
+	year={2026}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2025">
+  <span class="year-divider__label">2025</span>
+</div>
+<div class="card--project" id="iccv25lightswitch" data-year="2025" data-topics="neural-rendering">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://yehonathanlitman.github.io/light_switch/videos/teaser/lightswitch_teaser_kitchen.mp4" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">LightSwitch: Multi-view Relighting with Material-guided Diffusion</div>
+    <div class="card--project__authors">Yehonathan Litman, Fernando De la Torre, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ICCV, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2508.06494" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://yehonathanlitman.github.io/light_switch/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv25lightswitchBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/yehonathanlitman/LightSwitch" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv25lightswitchBib">@inproceedings{litman2025lightswitch,
+	title={LightSwitch: Multi-view Relighting with Material-guided Diffusion},
+	author={Yehonathan Litman and Fernando De la Torre and Shubham Tulsiani},
+	booktitle = {ICCV},
+	year={2025}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Neural Rendering</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="corl25gen2act" data-year="2025" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://homangab.github.io/pics/gen2act.gif" alt="Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation</div>
+    <div class="card--project__authors">Homanga Bharadhwaj, Debidatta Dwibedi, Abhinav Gupta, <strong>Shubham Tulsiani</strong>, Carl Doersch, Ted Xiao, Dhruv Shah, Fei Xia, Dorsa Sadigh, Sean Kirmani</div>
+    <div class="card--project__venue">CoRL, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2409.16283" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://homangab.github.io/gen2act/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('corl25gen2actBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="corl25gen2actBib">@inProceedings{bharadhwaj2025gen2act,
+  title={Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation},
+  author={Bharadhwaj, Homanga and Dwibedi, Debidatta and Gupta, Abhinav and Tulsiani, Shubham and Doersch, Carl and Xiao, Ted and Shah, Dhruv and Xia, Fei and Sadigh, Dorsa and Kirmani, Sean},
+  year={2025},
+  booktitle={Conference on Robot Learning (CoRL)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr25diffusionsfm" data-year="2025" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://qitaozhao.github.io/images/DiffusionSfM.gif" alt="DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion</div>
+    <div class="card--project__authors">Qitao Zhao, Amy Lin, Jeff Tan, Jason Y. Zhang, Deva Ramanan, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2504.13157" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://qitaozhao.github.io/DiffusionSfM" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr25diffusionsfmBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/QitaoZhao/DiffusionSfM" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr25diffusionsfmBib">@inproceedings{zhao2025diffusionsfm,
+  title={DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion}, 
+  author={Qitao Zhao and Amy Lin and Jeff Tan and Jason Y. Zhang and Deva Ramanan and Shubham Tulsiani},
+  booktitle={CVPR},
+  year={2025} 
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr25uniphy" data-year="2025" data-topics="physics-dynamics">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://himangim.github.io/images/grid_animation.gif" alt="UniPhy: Learning a Unified Constitutive Model for Inverse Physics Simulation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">UniPhy: Learning a Unified Constitutive Model for Inverse Physics Simulation</div>
+    <div class="card--project__authors">Himangi Mittal, Peiye Zhuang, Hsin-Ying Lee, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2505.16971" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://himangim.github.io/UniPhy" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr25uniphyBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/HimangiM/UniPhy_CVPR2025" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr25uniphyBib">@inproceedings{mittal2025uniphy,
+  title={UniPhy: Learning a Unified Constitutive Model for Inverse Physics Simulation},
+  author={Mittal, Himangi and Zhuang, Peiye and Lee, Hsin-Ying and Tulsiani, Shubham},
+  booktitle={CVPR},
+  year={2025} 
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Physics & Dynamics</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr25aerialmegadepth" data-year="2025" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://www.khiemvuong.com/projects/aerialmd_cvpr25/teaser_cvpr2025.m4v" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis</div>
+    <div class="card--project__authors">Khiem Vuong, Anurag Ghosh, Deva Ramanan*, Srinivasa Narasimhan*, <strong>Shubham Tulsiani</strong>*</div>
+    <div class="card--project__venue">CVPR, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2504.13157" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://aerial-megadepth.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr25aerialmegadepthBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/kvuong2711/aerial-megadepth" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr25aerialmegadepthBib">@inproceedings{vuong2025aerialmegadepth,
+  title={AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis},
+  author={Vuong, Khiem and Ghosh, Anurag and Ramanan, Deva and Narasimhan, Srinivasa and Tulsiani, Shubham},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025},
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr25turbo3d" data-year="2025" data-topics="3d-reconstruction,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://hzhupku.github.io/image/pubpage/turbo3d.gif" alt="Turbo3D: Ultra-fast Text-to-3D Generation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Turbo3D: Ultra-fast Text-to-3D Generation</div>
+    <div class="card--project__authors">Hanzhe Hu, Tianwei Yin, Fujun Luan, Yiwei Hu, Hao Tan, Zexiang Xu, Sai Bi, <strong>Shubham Tulsiani</strong>*, Kai Zhang*</div>
+    <div class="card--project__venue">CVPR, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2412.04470" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://turbo-3d.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr25turbo3dBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr25turbo3dBib">@inproceedings{huturbo3d,
+  title={Turbo3D: Ultra-fast Text-to-3D Generation},
+  author={Hanzhe Hu and Tianwei Yin and Fujun Luan and Yiwei Hu and Hao Tan and Zexiang Xu and Sai Bi and Shubham Tulsiani and Kai Zhang},
+  booktitle={CVPR},
+  year={2025} 
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr25scenefactor" data-year="2025" data-topics="generative-models,3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://www.3dunderstanding.org/papers/2025/bokhovkin2025scenefactor/thumb.jpg" alt="SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation</div>
+    <div class="card--project__authors">Alexey Bokhovkin, Quan Meng, <strong>Shubham Tulsiani</strong>, Angela Dai</div>
+    <div class="card--project__venue">CVPR, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2412.01801" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://alexeybokhovkin.github.io/scenefactor/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr25scenefactorBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/alexeybokhovkin/SceneFactor" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr25scenefactorBib">@inproceedings{bokhovkin2025scenefactor,
+  title={SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation}, 
+  author={Bokhovkin, Alexey and Meng, Quan and Tulsiani, Shubham and Dai, Angela},
+  booktitle={CVPR},
+  year={2025} 
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Generative Models</span>
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="3dv25materialfusion" data-year="2025" data-topics="neural-rendering">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://yehonathanlitman.github.io/images/materialfusion.mp4" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">MaterialFusion: Enhancing Inverse Rendering with Material Diffusion Priors</div>
+    <div class="card--project__authors">Yehonathan Litman, Or Patashnik, Kangle Deng, Aviral Agrawal, Rushikesh Zawar, Fernando De la Torre, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">3DV, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2409.15273" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://yehonathanlitman.github.io/material_fusion/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('3dv25materialfusionBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/yehonathanlitman/MaterialFusion" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="3dv25materialfusionBib">@inproceedings{litman2025materialfusion,
+  author    = {Yehonathan Litman and Or Patashnik and Kangle Deng and Aviral Agrawal and Rushikesh Zawar and Fernando De la Torre and Shubham Tulsiani},
+  title     = {MaterialFusion: Enhancing Inverse Rendering with Material Diffusion Priors},
+  booktitle = {3DV},
+  year      = {2025}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Neural Rendering</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="3dv25dressrecon" data-year="2025" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://jefftan969.github.io/dressrecon/img/dressrecon_icon.gif" alt="DressRecon: Freeform 4D Human Reconstruction from Monocular Video" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">DressRecon: Freeform 4D Human Reconstruction from Monocular Video</div>
+    <div class="card--project__authors">Jeff Tan, Donglai Xiang, <strong>Shubham Tulsiani</strong>, Deva Ramanan, Gengshan Yang</div>
+    <div class="card--project__venue">3DV, 2025</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2409.20563" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://jefftan969.github.io/dressrecon/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('3dv25dressreconBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/jefftan969/dressrecon" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="3dv25dressreconBib">@inproceedings{tan2024dressrecon,
+  title={DressRecon: Freeform 4D Human Reconstruction from Monocular Video},
+    author={Tan, Jeff and Xiang, Donglai and Tulsiani, Shubham and Ramanan, Deva and Yang, Gengshan},
+  booktitle = {3DV},
+  year      = {2025}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2024">
+  <span class="year-divider__label">2024</span>
+</div>
+<div class="card--project" id="neurips24ags" data-year="2024" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://qitaozhao.github.io/images/SparseAGS.gif" alt="Sparse-view Pose Estimation and Reconstruction via Analysis by Generative Synthesis" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Sparse-view Pose Estimation and Reconstruction via Analysis by Generative Synthesis</div>
+    <div class="card--project__authors">Qitao Zhao, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">NeurIPS, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2412.03570" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://qitaozhao.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('neurips24agsBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/QitaoZhao/SparseAGS/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="neurips24agsBib">@inproceedings{bharadhwaj2024track2act,
+  author    = {Homanga Bharadhwaj and Roozbeh Mottaghi and Abhinav Gupta and Shubham Tulsiani},
+  title     = {Track2Act: Predicting Point Tracks from Internet Videos enables Diverse Zero-shot Robot Manipulation},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year      = {2024}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="eccv24track2act" data-year="2024" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://homangab.github.io/pics/glimpse.gif" alt="Track2Act: Predicting Point Tracks from Internet Videos Enables Diverse Zero-shot Manipulation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Track2Act: Predicting Point Tracks from Internet Videos Enables Diverse Zero-shot Manipulation</div>
+    <div class="card--project__authors">Homanga Bharadhwaj, Roozbeh Mottaghi*, Abhinav Gupta*, <strong>Shubham Tulsiani</strong>*</div>
+    <div class="card--project__venue">ECCV, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2405.01527" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://homangab.github.io/track2act/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('eccv24track2actBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/homangab/Track-2-Act/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="eccv24track2actBib">@inproceedings{bharadhwaj2024track2act,
+  author    = {Homanga Bharadhwaj and Roozbeh Mottaghi and Abhinav Gupta and Shubham Tulsiani},
+  title     = {Track2Act: Predicting Point Tracks from Internet Videos enables Diverse Zero-shot Robot Manipulation},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year      = {2024}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="eccv24upfusion" data-year="2024" data-topics="3d-reconstruction,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://bharathrajn.com/assets/img/publication_preview/ITW_lock.gif" alt="UpFusion: Novel View Diffusion from Unposed Sparse View Observations" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">UpFusion: Novel View Diffusion from Unposed Sparse View Observations</div>
+    <div class="card--project__authors">Bharath Raj Nagoor Kani, Hsin-Ying Lee, Sergey Tulyakov, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ECCV, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2312.06661.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://upfusion3d.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('eccv24upfusionBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/upfusion3d/upfusion" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="eccv24upfusionBib">@inproceedings{kani24upfusion,
+  author    = {Nagoor Kani, Bharath Raj and Lee, Hsin-Ying and Tulyakov, Sergey and Tulsiani, Shubham},
+  title     = {UpFusion: Novel View Diffusion from Unposed Sparse View Observations},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year      = {2024}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr24ghop" data-year="2024" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr24ghop.png" alt="G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis</div>
+    <div class="card--project__authors">Yufei Ye, Abhinav Gupta, Kris Kitani, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2404.12383" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/ghop-www/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr24ghopBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/JudyYe/ghop" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr24ghopBib">@inproceedings{ye2024ghop,
+    author = {Ye, Yufei and Gupta, Abhinav and Kitani, Kris and Tulsiani, Shubham}
+    title = {G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis},
+    booktitle={CVPR},
+    year={2024}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr24mvdfusion" data-year="2024" data-topics="3d-reconstruction,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr24mvdfusion.gif" alt="MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation</div>
+    <div class="card--project__authors">Hanzhe Hu*, Zhizhuo Zhou*, Varun Jampani, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2404.03656" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://mvd-fusion.github.io//" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr24mvdfusionBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/zhizdev/mvdfusion" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr24mvdfusionBib">@inproceedings{hu2024mvdfusion,
+    title={MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation}, 
+    author={Hanzhe Hu and Zhizhuo Zhou and Varun Jampani and Shubham Tulsiani},
+    booktitle={CVPR},
+    year={2024}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iclr24rays" data-year="2024" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://jasonyzhang.com/assets/img/ray_diffusion_book_small.mp4" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Cameras as Rays: Pose Estimation via Ray Diffusion</div>
+    <div class="card--project__authors">Jason Y. Zhang*, Amy Lin*, Moneish Kumar, Tzu-Hsuan Yang, Deva Ramanan, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ICLR, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2402.14817.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://jasonyzhang.com/RayDiffusion/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iclr24raysBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/jasonyzhang/RayDiffusion" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iclr24raysBib">@InProceedings{zhang2024raydiffusion,
+    title={Cameras as Rays: Pose Estimation via Ray Diffusion},
+    author={Zhang, Jason Y and Lin, Amy and Kumar, Moneish and Yang, Tzu-Hsuan and Ramanan, Deva and Tulsiani, Shubham},
+    booktitle={International Conference on Learning Representations (ICLR)},
+    year={2024}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="icra24hopman" data-year="2024" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/icra24hopman.gif" alt="Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans</div>
+    <div class="card--project__authors">Homanga Bharadhwaj, Abhinav Gupta*, Vikash Kumar*, <strong>Shubham Tulsiani</strong>*</div>
+    <div class="card--project__venue">ICRA, 2024 <span class="card--project__note">(Finalist for Best Paper Award in Robot Manipulation)</span></div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://homangab.github.io/hopman/hopman_paper_appendix.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://homangab.github.io/hopman/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('icra24hopmanBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="icra24hopmanBib">@article{bharadhwaj2023towards,
+  title={Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans},
+  author={Bharadhwaj, Homanga and Gupta, Abhinav and Kumar, Vikash and Tulsiani, Shubham},
+  journal={arXiv preprint arXiv:2312.00775},
+  year={2023}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="icra24roboagent" data-year="2024" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://homangab.github.io/pics/robopen.png" alt="RoboAgent: Towards Sample Efficient Robot Manipulation with Semantic Augmentations and Action Chunking" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">RoboAgent: Towards Sample Efficient Robot Manipulation with Semantic Augmentations and Action Chunking</div>
+    <div class="card--project__authors">Homanga Bharadhwaj*, Jay Vakil*, Mohit Sharma*, Abhinav Gupta, <strong>Shubham Tulsiani</strong>, Vikash Kumar</div>
+    <div class="card--project__venue">ICRA, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://robopen.github.io/media/roboagent.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://robopen.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('icra24roboagentBib')">bibtex</a>
+      <a class="card--project__link" href="https://robopen.github.io/roboset/" target="_blank" rel="noopener">data</a>
+    </div>
+    <pre class="bibtex-content" id="icra24roboagentBib">@article{bharadhwaj2023roboagent,
+  title={Roboagent: Generalization and efficiency in robot manipulation via semantic augmentations and action chunking},
+  author={Bharadhwaj, Homanga and Vakil, Jay and Sharma, Mohit and Gupta, Abhinav and Tulsiani, Shubham and Kumar, Vikash},
+  journal={arXiv preprint arXiv:2309.01918},
+  year={2023}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="3dv24relposepp" data-year="2024" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <video class="card--project__media" muted autoplay loop playsinline><source src="https://jasonyzhang.com/assets/img/relposepp_espresso_small.mp4" type="video/mp4"></video>
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">RelPose++: Recovering 6D Poses from Sparse-view Observations</div>
+    <div class="card--project__authors">Amy Lin*, Jason Y. Zhang*, Deva Ramanan, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">3DV, 2024</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2305.04926.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://amyxlase.github.io/relpose-plus-plus/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('3dv24relposeppBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/amyxlase/relpose-plus-plus" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="3dv24relposeppBib">@inproceedings{lin2024relposepp,
+    title={RelPose++: Recovering 6D Poses from Sparse-view Observations},
+    author={Lin, Amy and Zhang, Jason Y and Ramanan, Deva and Tulsiani, Shubham},
+    booktitle={3DV},
+    year={2024}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2023">
+  <span class="year-divider__label">2023</span>
+</div>
+<div class="card--project" id="iccv23diffhoi" data-year="2023" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://judyye.github.io/data/iccv23.gif" alt="Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips</div>
+    <div class="card--project__authors">Yufei Ye, Poorvi Hebbar, Abhinav Gupta, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ICCV, 2023</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2309.05663.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/diffhoi-www/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv23diffhoiBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/JudyYe/diffhoi" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv23diffhoiBib">@inproceedings{ye2023vhoi,
+        author = {Ye, Yufei and Hebbar, Poorvi and Gupta, Abhinav and Tulsiani, Shubham}
+        title = {Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips},
+        booktitle = {ICCV},
+        year = {2023}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv23control" data-year="2023" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://sudeepdasari.github.io/research/manipulate_by_seeing/test.gif" alt="Manipulate by Seeing: Creating Manipulation Controllers from Pre-Trained Representations" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Manipulate by Seeing: Creating Manipulation Controllers from Pre-Trained Representations</div>
+    <div class="card--project__authors">Jianren Wang*, Sudeep Dasari*, Mohan Kumar Srirama, <strong>Shubham Tulsiani</strong>, Abhinav Gupta</div>
+    <div class="card--project__venue">ICCV, 2023</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2303.08135" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://agi-labs.github.io/manipulate-by-seeing/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv23controlBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/AGI-Labs/manipulate-by-seeing" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv23controlBib">@article{wang2023manipulate,
+  title={Manipulate by Seeing: Creating Manipulation Controllers from Pre-Trained Representations},
+  author={Wang, Jianren and Dasari, Sudeep and Srirama, Mohan Kumar and Tulsiani, Shubham and Gupta, Abhinav},
+  booktitle={International Conference on Computer Vision (ICCV)},
+  year={2023}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv23texture" data-year="2023" data-topics="neural-rendering,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv23texture.png" alt="Mesh2Tex: Generating Mesh Textures from Image Queries" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Mesh2Tex: Generating Mesh Textures from Image Queries</div>
+    <div class="card--project__authors">Alexey Bokhovkin, <strong>Shubham Tulsiani</strong>, Angela Dai</div>
+    <div class="card--project__venue">ICCV, 2023</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2304.05868" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://alexeybokhovkin.github.io/mesh2tex/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv23textureBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="iccv23textureBib">@inproceedings{ye2023vhoi,
+        title     = {Mesh2Tex: Generating Mesh Textures from Image Queries},
+        author    = {Bokhovkin, Alexey and Tulsiani, Shubham and Dai, Angela},
+        booktitle = {ICCV},
+        year = {2023}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Neural Rendering</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="icra23affordance" data-year="2023" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://homangab.github.io/pics/affordance.png" alt="Visual Affordance Prediction for Guiding Robot Exploration" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Visual Affordance Prediction for Guiding Robot Exploration</div>
+    <div class="card--project__authors">Homanga Bharadhwaj, Abhinav Gupta, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ICRA, 2023</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://homangab.github.io/papers/affordance_exploration_icra.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://sites.google.com/andrew.cmu.edu/affordance-robotics/home" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('icra23affordanceBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/homangab/visual_affordance_robot_exploration" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="icra23affordanceBib">@article{BharadhwajVisual,	
+  Author = {Homanga Bharadhwaj and Abhinav Gupta and Shubham Tulsiani},	
+  Journal={IEEE International Conference on Robotics and Automation (ICRA)},	
+  Year = {2023},	
+  Title = {Visual Affordance Prediction for Guiding Robot Exploration}	
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iclr23analogical" data-year="2023" data-topics="object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://nickgkan.github.io/teasers/iclr23_mem.gif" alt="Analogy-Forming Transformers for Few-Shot 3D Parsing" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Analogy-Forming Transformers for Few-Shot 3D Parsing</div>
+    <div class="card--project__authors">Nikolaos Gkanatsios*, Mayank Singh*, Zhaoyuan Fang, <strong>Shubham Tulsiani</strong>, Katerina Fragkiadaki</div>
+    <div class="card--project__venue">ICLR, 2023</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2304.14382.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://analogicalnets.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iclr23analogicalBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/nickgkan/analogicalnets" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iclr23analogicalBib">@article{gkanatsios2023analogical,
+  author    = {Gkanatsios, Nikolaos and Singh, Mayank and Fang, Zhaoyuan and Tulsiani, Shubham and Fragkiadaki, Katerina},
+  title     = {Analogy-Forming Transformers for Few-Shot 3D Parsing},
+  journal   = {ICLR},
+  year      = {2023},
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr23sparsefusion" data-year="2023" data-topics="3d-reconstruction,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr23sparsefusion.gif" alt="SparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">SparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction</div>
+    <div class="card--project__authors">Zhizhuo Zhou, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2023</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2212.00792" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://sparsefusion.github.io/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr23sparsefusionBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/zhizdev/sparsefusion" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr23sparsefusionBib">@inproceedings{zhou2023sparsefusion,
+  title={SparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction}, 
+  author={Zhizhuo Zhou and Shubham Tulsiani},
+  booktitle={CVPR},
+  year={2023}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr23affordance" data-year="2023" data-topics="object-understanding,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr23affordance.gif" alt="Affordance Diffusion: Synthesizing Hand-Object Interactions" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Affordance Diffusion: Synthesizing Hand-Object Interactions</div>
+    <div class="card--project__authors">Yufei Ye, Xueting Li, Abhinav Gupta, Shalini De Mello, Stan Birchfield, Jiaming Song, <strong>Shubham Tulsiani</strong>, Sifei Liu</div>
+    <div class="card--project__venue">CVPR, 2023</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2303.12538" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/affordiffusion-www/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr23affordanceBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr23affordanceBib">@inproceedings{ye2023affordance,
+  title={Affordance Diffusion: Synthesizing Hand-Object Interactions}, 
+  author={Yufei Ye and Xueting Li and Abhinav Gupta  and Shalini De Mello  and Stan Birchfield, Jiaming Song and Shubham Tulsiani and Sifei Liu},
+  booktitle={CVPR},
+  year={2023}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2022">
+  <span class="year-divider__label">2022</span>
+</div>
+<div class="card--project" id="neurips22dycheck" data-year="2022" data-topics="neural-rendering">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/neurips22dycheck.gif" alt="Monocular Dynamic View Synthesis: A Reality Check" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Monocular Dynamic View Synthesis: A Reality Check</div>
+    <div class="card--project__authors">Hang Gao, Ruilong Li, <strong>Shubham Tulsiani</strong>, Bryan Russell, Angjoo Kanazawa</div>
+    <div class="card--project__venue">NeurIPS, 2022</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2210.13445" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://hangg7.com/dycheck/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('neurips22dycheckBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/KAIR-BAIR/dycheck/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="neurips22dycheckBib">@inproceedings{gao2022dynamic,
+    title={Monocular Dynamic View Synthesis: A Reality Check},
+    author={Gao, Hang and 
+            Li, Ruilong and 
+            Tulsiani, Shubham and 
+            Russell, Bryan and 
+            Kanazawa, Angjoo},
+    booktitle={NeurIPS},
+    year={2022},
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Neural Rendering</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="eccv22relpose" data-year="2022" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/eccv22relpose.gif" alt="RelPose: Predicting Probabilistic Relative Rotation for Single Objects in the Wild" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">RelPose: Predicting Probabilistic Relative Rotation for Single Objects in the Wild</div>
+    <div class="card--project__authors">Jason Y. Zhang, Deva Ramanan, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ECCV, 2022</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://jasonyzhang.com/relpose/resources/Relpose_ECCV_2022.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://jasonyzhang.com/relpose/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('eccv22relposeBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/jasonyzhang/relpose" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="eccv22relposeBib">@InProceedings{zhang2022relpose,
+    title = {{RelPose}: Predicting Probabilistic Relative Rotation for Single Objects in the Wild},
+    author = {Zhang, Jason Y. and Ramanan, Deva and Tulsiani, Shubham},
+    booktitle = {European Conference on Computer Vision},
+    year = {2022}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr22ss3d" data-year="2022" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr22ss3d.gif" alt="Pre-train, Self-train, Distill: A simple recipe for Supersizing 3D Reconstruction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Pre-train, Self-train, Distill: A simple recipe for Supersizing 3D Reconstruction</div>
+    <div class="card--project__authors">Kalyan Vasudev Alwala, Abhinav Gupta, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2022</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2204.03642.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://shubhtuls.github.io/ss3d/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr22ss3dBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/facebookresearch/ss3d/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr22ss3dBib">@inProceedings{vasudev2022ss3d,
+  title={Pre-train, Self-train, Distill: A simple recipe for Supersizing 3D Reconstruction},
+  author={Alwala, Kalyan Vasudev and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2022},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr22ihoi" data-year="2022" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr22ihoi.gif" alt="What&#x27;s in your hands? 3D Reconstruction of Generic Objects in Hands" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">What's in your hands? 3D Reconstruction of Generic Objects in Hands</div>
+    <div class="card--project__authors">Yufei Ye, Abhinav Gupta, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2022</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="http://arxiv.org/pdf/2204.07153.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/ihoi/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr22ihoiBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/JudyYe/ihoi" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr22ihoiBib">@inProceedings{ye2022ihoi,
+  title={What&#x27;s in your hands? 3D Reconstruction of Generic Objects in Hands},
+  author={Ye, Yufei and  Gupta, Abhinav and Tulsiani, Shubham},
+  year={2022},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr22autosdf" data-year="2022" data-topics="3d-reconstruction,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr22autosdf.gif" alt="AutoSDF: Shape Priors for 3D Completion, Reconstruction and Generation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">AutoSDF: Shape Priors for 3D Completion, Reconstruction and Generation</div>
+    <div class="card--project__authors">Paritosh Mittal*, Yen-Chi Cheng*, Maneesh Singh, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2022</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2203.09516.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://yccyenchicheng.github.io/AutoSDF/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr22autosdfBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/yccyenchicheng/AutoSDF/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr22autosdfBib">@inproceedings{autosdf2022,
+  title={{AutoSDF}: Shape Priors for 3D Completion, Reconstruction and Generation},
+  author={Mittal, Paritosh and Cheng, Yen-Chi and Singh, Maneesh and Tulsiani, Shubham},
+  booktitle={CVPR},
+  year={2022}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2021">
+  <span class="year-divider__label">2021</span>
+</div>
+<div class="card--project" id="neurips21ners" data-year="2021" data-topics="neural-rendering,3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/neurips21ners.gif" alt="NeRS: Neural Reflectance Surfaces for Sparse-view 3D Reconstruction in the Wild" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">NeRS: Neural Reflectance Surfaces for Sparse-view 3D Reconstruction in the Wild</div>
+    <div class="card--project__authors">Jason Y. Zhang, Gengshan Yang, <strong>Shubham Tulsiani</strong>*, and Deva Ramanan*</div>
+    <div class="card--project__venue">NeurIPS, 2021</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2110.07604" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://jasonyzhang.com/ners/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('neurips21nersBib')">bibtex</a>
+      <a class="card--project__link" href="https://youtu.be/zVyaw_sn1xM" target="_blank" rel="noopener">video</a>
+      <a class="card--project__link" href="https://github.com/jasonyzhang/ners" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="neurips21nersBib">@inproceedings{zhang2021ners,
+  title={{NeRS}: Neural Reflectance Surfaces for Sparse-view 3D Reconstruction in the Wild},
+  author={Zhang, Jason Y. and Yang, Gengshan and Tulsiani, Shubham and Ramanan, Deva},
+  booktitle={Conference on Neural Information Processing Systems},
+  year={2021}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Neural Rendering</span>
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="neurips21nrns" data-year="2021" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/neurips21nrns.jpg" alt="No RL, No Simulation: Learning to Navigate without Navigating" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">No RL, No Simulation: Learning to Navigate without Navigating</div>
+    <div class="card--project__authors">Meera Hahn, Devendra Chaplot, <strong>Shubham Tulsiani</strong>, Mustafa Mukadam, James M. Rehg, Abhinav Gupta</div>
+    <div class="card--project__venue">NeurIPS, 2021</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2110.09470" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://meerahahn.github.io/nrns/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('neurips21nrnsBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/meera1hahn/NRNS/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="neurips21nrnsBib">@article{hahn2021nrns,
+    title={No RL, No Simulation: Learning to Navigate without Navigating},
+    author={Meera Hahn and Devendra Chaplot and Shubham Tulsiani and Mustafa Mukadam and James Rehg and Abhinav Gupta},
+    booktitle={Neural Information Processing Systems},
+    year={2021},
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="corl21planar" data-year="2021" data-topics="robot-learning,physics-dynamics">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/corl21planar.png" alt="A Differentiable Recipe for Learning Visual Non-Prehensile Planar Manipulation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">A Differentiable Recipe for Learning Visual Non-Prehensile Planar Manipulation</div>
+    <div class="card--project__authors">Bernardo Aceituno, Alberto Rodriguez, <strong>Shubham Tulsiani</strong>, Abhinav Gupta, Mustafa Mukadam</div>
+    <div class="card--project__venue">CoRL, 2021</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://openreview.net/pdf?id=f7KaqYLO3iE" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('corl21planarBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="corl21planarBib">@inProceedings{aceituno21planar,
+  title={A Differentiable Recipe for Learning Visual Non-Prehensile Planar Manipulation},
+  author={Aceituno, Bernardo and Rodriguez, Alberto and Tulsiani, Shubham and Gupta, Abhinav and Mukadam, Mustafa},
+  year={2021},
+  booktitle={Conference on Robot Learning (CoRL)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+      <span class="card--project__topic">Physics & Dynamics</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv21act" data-year="2021" data-topics="robot-learning,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://kaichun-mo.github.io/papers/where2act.png" alt="Where2Act: From Pixels to Actions for Articulated 3D Objects" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Where2Act: From Pixels to Actions for Articulated 3D Objects</div>
+    <div class="card--project__authors">Kaichun Mo, Leonidas J. Guibas, Mustafa Mukadam, Abhinav Gupta, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">ICCV, 2021</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2101.02692.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv21actBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/daerduoCarey/where2act" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv21actBib">@inProceedings{mo2021where2act,
+  title={Where2Act: From Pixels to Actions for Articulated 3D Objects},
+  author={Mo, Kaichun and Guibas, Leonidas and Mukadam, Mustafa and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2021},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="icml21pixel" data-year="2021" data-topics="generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/icml21pixel.gif" alt="PixelTransformer: Sample Conditioned Signal Generation" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">PixelTransformer: Sample Conditioned Signal Generation</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Abhinav Gupta</div>
+    <div class="card--project__venue">ICML, 2021</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2103.15813.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://shubhtuls.github.io/PixelTransformer/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('icml21pixelBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/shubhtuls/PixelTransformer" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="icml21pixelBib">@inProceedings{tulsiani2021pixel,
+  title={PixelTransformer: Sample Conditioned Signal Generation},
+  author={Tulsiani, Shubham and  Gupta, Abhinav},
+  year={2021},
+  booktitle={International Conference on Machine Learning (ICML)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr21mesh" data-year="2021" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://judyye.github.io/ShSMesh/data/teaser.gif" alt="Shelf-Supervised Mesh Prediction in the Wild" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Shelf-Supervised Mesh Prediction in the Wild</div>
+    <div class="card--project__authors">Yufei Ye, <strong>Shubham Tulsiani</strong>, Abhinav Gupta</div>
+    <div class="card--project__venue">CVPR, 2021</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2102.06195.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/ShSMesh/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr21meshBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/JudyYe/shelf-sup-mesh" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr21meshBib">@inProceedings{ye2021shelf,
+  title={Shelf-Supervised Mesh Prediction in the Wild},
+  author={Ye, Yufei and Tulsiani, Shubham and  Gupta, Abhinav},
+  year={2021},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2020">
+  <span class="year-divider__label">2020</span>
+</div>
+<div class="card--project" id="neurips20audio" data-year="2020" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://vdean.github.io/images/audio-curiosity.png" alt="See, Hear, Explore: Curiosity via Audio-Visual Association" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">See, Hear, Explore: Curiosity via Audio-Visual Association</div>
+    <div class="card--project__authors">Victoria Dean, <strong>Shubham Tulsiani</strong>, Abhinav Gupta</div>
+    <div class="card--project__venue">NeurIPS, 2020</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://vdean.github.io/resources/audio-curiosity2020.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://vdean.github.io/audio-curiosity.html" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('neurips20audioBib')">bibtex</a>
+      <a class="card--project__link" href="https://youtu.be/DMiW5hwsoeo" target="_blank" rel="noopener">video</a>
+      <a class="card--project__link" href="https://github.com/vdean/audio-curiosity" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="neurips20audioBib">@article{dean2020see,
+  title={See, hear, explore: Curiosity via audio-visual association},
+  author={Dean, Victoria and Tulsiani, Shubham and Gupta, Abhinav},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="corl20vime" data-year="2020" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://dhiraj100892.github.io/Visual-Imitation-Made-Easy/resources/dataset.gif" alt="Visual Imitation Made Easy" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Visual Imitation Made Easy</div>
+    <div class="card--project__authors">Sarah Young, Dhiraj Gandhi, <strong>Shubham Tulsiani</strong>, Abhinav Gupta, Pieter Abbeel, Lerrel Pinto</div>
+    <div class="card--project__venue">CORL, 2020</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2008.04899.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://dhiraj100892.github.io/Visual-Imitation-Made-Easy/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('corl20vimeBib')">bibtex</a>
+      <a class="card--project__link" href="https://www.youtube.com/watch?v=opizQ4bXSpk" target="_blank" rel="noopener">video</a>
+      <a class="card--project__link" href="https://github.com/sarahisyoung/Visual-Imitation-Made-Easy/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="corl20vimeBib">@inProceedings{young2020vime,
+  title={Visual Imitation Made Easy},
+  author={Young, Sarah and Gandhi, Dhiraj and Tulsiani, Shubham and Gupta, Abhinav and Abbeel, Pieter and Pinto, Lerrel},
+  year={2020},
+  booktitle={Conference on Robot Learning (CORL)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr20acsm" data-year="2020" data-topics="object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr20acsm.png" alt="Articulation-aware Canonical Surface Mapping" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Articulation-aware Canonical Surface Mapping</div>
+    <div class="card--project__authors">Nilesh Kulkarni, Abhinav Gupta, David Fouhey, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CVPR, 2020</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2004.00614.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://nileshkulkarni.github.io/acsm/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr20acsmBib')">bibtex</a>
+      <a class="card--project__link" href="https://youtu.be/qgVwjkO2ltw" target="_blank" rel="noopener">video</a>
+      <a class="card--project__link" href="http://www.github.com/nileshkulkarni/acsm/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr20acsmBib">@inProceedings{kulkarni2020acsm,
+  title={Articulation-aware Canonical Surface Mapping},
+  author={Kulkarni, Nilesh and Gupta, Abhinav and Fouhey, David and Tulsiani, Shubham},
+  year={2020},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr20force" data-year="2020" data-topics="physics-dynamics">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr20force.png" alt="Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects</div>
+    <div class="card--project__authors">Kiana Ehsani, <strong>Shubham Tulsiani</strong>, Saurabh Gupta, Ali Farhadi, Abhinav Gupta</div>
+    <div class="card--project__venue">CVPR, 2020</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/2003.12045.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://ehsanik.github.io/forcecvpr2020/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr20forceBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/ehsanik/touchTorch" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr20forceBib">@inProceedings{ehsani2020force,
+  title={Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects},
+  author={Ehsani, Kiana and  Tulsiani, Shubham and Gupta, Saurabh and Farhadi, Ali and Gupta, Abhinav},
+  year={2020},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Physics & Dynamics</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iclr20synergy" data-year="2020" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iclr20synergy.png" alt="Intrinsic Motivation for Encouraging Synergistic Behavior" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Intrinsic Motivation for Encouraging Synergistic Behavior</div>
+    <div class="card--project__authors">Rohan Chitnis, <strong>Shubham Tulsiani</strong>, Saurabh Gupta, Abhinav Gupta</div>
+    <div class="card--project__venue">ICLR, 2020</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://openreview.net/pdf?id=SJleNCNtDH" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://sites.google.com/view/iclr2020-synergistic" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iclr20synergyBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="iclr20synergyBib">@inproceedings{chitnis20synergy,
+  title={Intrinsic Motivation for Encouraging Synergistic Behavior},
+  author={Chitnis, Rohan and Tulsiani, Shubham and Gupta, Saurabh and Gupta, Abhinav},
+  booktitle={ICLR},
+  year={2020}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iclr20motor" data-year="2020" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iclr20motor.png" alt="Discovering Motor Programs by Recomposing Demonstrations" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Discovering Motor Programs by Recomposing Demonstrations</div>
+    <div class="card--project__authors">Tanmay Shankar, <strong>Shubham Tulsiani</strong>, Lerrel Pinto, Abhinav Gupta</div>
+    <div class="card--project__venue">ICLR, 2020</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://openreview.net/pdf?id=rkgHY0NYwr" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('iclr20motorBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="iclr20motorBib">@inproceedings{shankar20motor,
+  title={Discovering Motor Programs by Recomposing Demonstrations},
+  author={Shankar, Tanmay and Tulsiani, Shubham and Pinto, Lerrel and Gupta, Abhinav},
+  booktitle={ICLR},
+  year={2020}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="icra20schema" data-year="2020" data-topics="robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/icra20schema.png" alt="Efficient Bimanual Manipulation using Learned Task Schemas" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Efficient Bimanual Manipulation using Learned Task Schemas</div>
+    <div class="card--project__authors">Rohan Chitnis, <strong>Shubham Tulsiani</strong>, Saurabh Gupta, Abhinav Gupta</div>
+    <div class="card--project__venue">ICRA, 2020</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1909.13874.pdf" target="_blank" rel="noopener">preprint</a>
+      <a class="card--project__link" href="javascript:toggleblock('icra20schemaBib')">bibtex</a>
+      <a class="card--project__link" href="https://www.youtube.com/watch?v=TBUEHk37a64" target="_blank" rel="noopener">video</a>
+    </div>
+    <pre class="bibtex-content" id="icra20schemaBib">@inproceedings{chitnis20schema,
+  title={Efficient Bimanual Manipulation Using Learned Task Schemas},
+  author={Chitnis, Rohan and Tulsiani, Shubham and Gupta, Saurabh and Gupta, Abhinav},
+  booktitle={ICRA},
+  year={2020}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2019">
+  <span class="year-divider__label">2019</span>
+</div>
+<div class="card--project" id="corl19ocm" data-year="2019" data-topics="physics-dynamics,robot-learning">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/corl19ocm.png" alt="Object-centric Forward Modeling for Model Predictive Control" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Object-centric Forward Modeling for Model Predictive Control</div>
+    <div class="card--project__authors">Yufei Ye, Dhiraj Gandhi, Abhinav Gupta, <strong>Shubham Tulsiani</strong></div>
+    <div class="card--project__venue">CORL, 2019</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1910.03568.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/ocmpc/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('corl19ocmBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="corl19ocmBib">@inProceedings{ye2019ocm,
+  title={Object-centric Forward Modeling for Model Predictive Control},
+  author={Ye, Yufei and Gandhi, Dhiraj and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={Conference on Robot Learning (CORL)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Physics & Dynamics</span>
+      <span class="card--project__topic">Robot Learning</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv19csm" data-year="2019" data-topics="object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv19csm.png" alt="Canonical Surface Mapping via Geometric Cycle Consistency" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Canonical Surface Mapping via Geometric Cycle Consistency</div>
+    <div class="card--project__authors">Nilesh Kulkarni, Abhinav Gupta*, <strong>Shubham Tulsiani</strong>*</div>
+    <div class="card--project__venue">ICCV, 2019</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1907.10043.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://nileshkulkarni.github.io/csm/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv19csmBib')">bibtex</a>
+      <a class="card--project__link" href="https://www.youtube.com/watch?v=93M3ou4mg-w" target="_blank" rel="noopener">video</a>
+      <a class="card--project__link" href="https://github.com/nileshkulkarni/csm" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv19csmBib">@inProceedings{kulkarni2019csm,
+  title={Canonical Surface Mapping via Geometric Cycle Consistency},
+  author={Kulkarni, Nilesh and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv19cvp" data-year="2019" data-topics="physics-dynamics,generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv19cvp_static.png" alt="Compositional Video Prediction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Compositional Video Prediction</div>
+    <div class="card--project__authors">Yufei Ye, Maneesh Singh, Abhinav Gupta*, <strong>Shubham Tulsiani</strong>*</div>
+    <div class="card--project__venue">ICCV, 2019</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1908.08522.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://judyye.github.io/CVP/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv19cvpBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/JudyYe/CVP" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv19cvpBib">@inProceedings{ye2019cvp,
+  title={Compositional Video Prediction},
+  author={Ye, Yufei and Singh, Maneesh and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Physics & Dynamics</span>
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv19relnet" data-year="2019" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv19relnet.png" alt="3D-RelNet: Joint Object and Relational Network for 3D Prediction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">3D-RelNet: Joint Object and Relational Network for 3D Prediction</div>
+    <div class="card--project__authors">Nilesh Kulkarni, Ishan Misra, <strong>Shubham Tulsiani</strong>, Abhinav Gupta</div>
+    <div class="card--project__venue">ICCV, 2019</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1906.02729" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://nileshkulkarni.github.io/relative3d/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv19relnetBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/nileshkulkarni/relative3d" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv19relnetBib">@inProceedings{kulkarni2019relnet,
+  title={3D-RelNet: Joint Object and Relational Network for 3D Prediction},
+  author={Nilesh Kulkarni, Ishan Misra, Shubham Tulsiani, Abhinav Gupta},
+  booktitle={ICCV},
+  year={2019}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv19craft" data-year="2019" data-topics="generative-models">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv19craft.png" alt="Order-Aware Generative Modeling Using the 3D-Craft Dataset" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Order-Aware Generative Modeling Using the 3D-Craft Dataset</div>
+    <div class="card--project__authors">Zhuoyuan Chen*, Demi Guo*, Tong Xiao*, et. al.</div>
+    <div class="card--project__venue">ICCV, 2019</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Order-Aware_Generative_Modeling_Using_the_3D-Craft_Dataset_ICCV_2019_paper.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv19craftBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="iccv19craftBib">@inProceedings{chen2019craft,
+  title={Order-Aware Generative Modeling Using the 3D-Craft Dataset},
+  author={Zhuoyuan Chen, Demi Guo, Tong Xiao, Saining Xie, Xinlei Chen, Haonan Yu, Jonathan Gray, Kavya Srinet, Haoqi Fan, Jerry Ma, Charles R. Qi, Shubham Tulsiani, Arthur Szlam, and C. Lawrence Zitnick},
+  booktitle={ICCV},
+  year={2019}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Generative Models</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="arxiv19mvs" data-year="2019" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/arxiv19mvs.png" alt="Learning Unsupervised Multi-View Stereopsis via Robust Photometric Consistency" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Learning Unsupervised Multi-View Stereopsis via Robust Photometric Consistency</div>
+    <div class="card--project__authors">Tejas Khot*, Shubham Agrawal*, <strong>Shubham Tulsiani</strong>, Christoph Mertz, Simon Lucey, Martial Hebert</div>
+    <div class="card--project__venue">arXiv preprint, 2019</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1905.02706.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://tejaskhot.github.io/unsup_mvs/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('arxiv19mvsBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/tejaskhot/unsup_mvs" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="arxiv19mvsBib">@article{khot2019learning,
+  title={Learning Unsupervised Multi-View Stereopsis via Robust Photometric Consistency},
+  author={Khot, Tejas and Agrawal, Shubham and Tulsiani, Shubham and Mertz, Christoph and Lucey, Simon and Hebert, Martial},
+  journal={arXiv preprint arXiv:1905.02706},
+  year={2019}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2018">
+  <span class="year-divider__label">2018</span>
+</div>
+<div class="card--project" id="eccv18lsi" data-year="2018" data-topics="3d-reconstruction,neural-rendering">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://shubhtuls.github.io/lsi/resources/images/teaser.png" alt="Layer-structured 3D Scene Inference via View Synthesis" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Layer-structured 3D Scene Inference via View Synthesis</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Richard Tucker, Noah Snavely</div>
+    <div class="card--project__venue">ECCV, 2018</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1807.10264.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://shubhtuls.github.io/lsi/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('eccv18lsiBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/google/layered-scene-inference" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="eccv18lsiBib">@inProceedings{lsiTulsiani18,
+  title={Layer-structured 3D Scene Inference via View Synthesis},
+  author = {Shubham Tulsiani
+  and Richard Tucker
+  and Noah Snavely},
+  booktitle={ECCV},
+  year={2018}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Neural Rendering</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="eccv18cmr" data-year="2018" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/arxiv18cmr.png" alt="Learning Category-Specific Mesh Reconstruction from Image Collections" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Learning Category-Specific Mesh Reconstruction from Image Collections</div>
+    <div class="card--project__authors">Angjoo Kanazawa*, <strong>Shubham Tulsiani</strong>*, Alexei A. Efros, Jitendra Malik</div>
+    <div class="card--project__venue">ECCV, 2018</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1803.07549.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://akanazawa.github.io/cmr/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('eccv18cmrBib')">bibtex</a>
+      <a class="card--project__link" href="https://youtu.be/cYHQKtBLI3Q" target="_blank" rel="noopener">video</a>
+      <a class="card--project__link" href="https://github.com/akanazawa/cmr" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="eccv18cmrBib">@inProceedings{cmrKanazawa18,
+  title={Learning Category-Specific Mesh Reconstruction
+  from Image Collections},
+  author = {Angjoo Kanazawa and
+  Shubham Tulsiani
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={ECCV},
+  year={2018}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr18mvc" data-year="2018" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/arxiv18mvc.png" alt="Multi-view Consistency as Supervisory Signal for Learning Shape and Pose Prediction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Multi-view Consistency as Supervisory Signal for Learning Shape and Pose Prediction</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Alexei A. Efros, Jitendra Malik</div>
+    <div class="card--project__venue">CVPR, 2018</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1801.03910.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://shubhtuls.github.io/mvcSnP/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr18mvcBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/shubhtuls/mvcSnP" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr18mvcBib">@inProceedings{mvcTulsiani18,
+  title={Multi-view Consistency as Supervisory Signal
+  for Learning Shape and Pose Prediction},
+  author = {Shubham Tulsiani
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2018}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr18f3d" data-year="2018" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://shubhtuls.github.io/factored3d/resources/images/teaser.png" alt="Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Saurabh Gupta, David Fouhey, Alexei A. Efros, Jitendra Malik</div>
+    <div class="card--project__venue">CVPR, 2018</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1712.01812.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://shubhtuls.github.io/factored3d/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr18f3dBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/shubhtuls/factored3d" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr18f3dBib">@inProceedings{factored3dTulsiani17,
+  title={Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene},
+  author = {Shubham Tulsiani
+  and Saurabh Gupta
+  and David Fouhey
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2018}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2017">
+  <span class="year-divider__label">2017</span>
+</div>
+<div class="card--project" id="cvpr17drc" data-year="2017" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr17drc.png" alt="Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Tinghui Zhou, Alexei A. Efros, Jitendra Malik</div>
+    <div class="card--project__venue">CVPR, 2017</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1704.06254.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://shubhtuls.github.io/drc/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr17drcBib')">bibtex</a>
+      <a class="card--project__link" href="https://people.eecs.berkeley.edu/~shubhtuls/slides/cvpr17drc.pdf" target="_blank" rel="noopener">slides</a>
+      <a class="card--project__link" href="https://www.youtube.com/watch?v=i--alz5-lTc" target="_blank" rel="noopener">talk</a>
+      <a class="card--project__link" href="https://github.com/shubhtuls/drc" target="_blank" rel="noopener">code</a>
+      <a class="card--project__link" href="http://bair.berkeley.edu/blog/2017/07/11/confluence-of-geometry-and-learning/" target="_blank" rel="noopener">blog post</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr17drcBib">@inProceedings{drcTulsiani17,
+  title={Multi-view Supervision for Single-view Reconstruction
+  via Differentiable Ray Consistency},
+  author = {Shubham Tulsiani
+  and Tinghui Zhou
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2017}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr17abstraction" data-year="2017" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="https://shubhtuls.github.io/volumetricPrimitives/resources/images/teaser.png" alt="Learning Shape Abstractions by Assembling Volumetric Primitives" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Learning Shape Abstractions by Assembling Volumetric Primitives</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Hao Su, Leonidas J. Guibas, Alexei A. Efros, Jitendra Malik</div>
+    <div class="card--project__venue">CVPR, 2017</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1612.00404.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="https://shubhtuls.github.io/volumetricPrimitives/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr17abstractionBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/shubhtuls/volumetricPrimitives" target="_blank" rel="noopener">code (torch)</a>
+      <a class="card--project__link" href="https://github.com/nileshkulkarni/volumetricPrimitivesPytorch" target="_blank" rel="noopener">code (pytorch - unofficial)</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr17abstractionBib">@inProceedings{abstractionTulsiani17,
+  title={Learning Shape Abstractions by Assembling Volumetric Primitives},
+  author = {Shubham Tulsiani
+  and Hao Su
+  and Leonidas J. Guibas
+  and Alexei A. Efros
+  and Jitendra Malik},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
+  year={2017}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="3dv17hsp" data-year="2017" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv17hsp.png" alt="Hierarchical Surface Prediction for 3D Object Reconstruction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Hierarchical Surface Prediction for 3D Object Reconstruction</div>
+    <div class="card--project__authors">Christian H&auml;ne, <strong>Shubham Tulsiani</strong>, Jitendra Malik</div>
+    <div class="card--project__venue">3DV, 2017</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1704.00710.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('3dv17hspBib')">bibtex</a>
+      <a class="card--project__link" href="https://people.eecs.berkeley.edu/~chaene/publications/haene2017hspICCVTalk.pdf" target="_blank" rel="noopener">slides</a>
+      <a class="card--project__link" href="https://github.com/chaene/hsp" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="3dv17hspBib">@incollection{hspHane17,
+  author = {Christian H{\&quot;a}ne and
+  Shubham Tulsiani and
+  Jitendra Malik},
+  title = {Hierarchical Surface Prediction for 3D Object Reconstruction},
+  booktitle = {arXiv preprint arXiv:1704.00710},
+  year = {2017}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2016">
+  <span class="year-divider__label">2016</span>
+</div>
+<div class="card--project" id="pami16reconstruction" data-year="2016" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/pami16reconstruction.png" alt="Learning Category-Specific Deformable 3D Models for Object Reconstruction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Learning Category-Specific Deformable 3D Models for Object Reconstruction</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>*, Abhishek Kar*, João Carreira, Jitendra Malik</div>
+    <div class="card--project__venue">TPAMI, 2016</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="papers/pami16reconstruction.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('pami16reconstructionBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/akar43/CategoryShapes" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="pami16reconstructionBib">@article{pamishapeTulsianiKCM15,
+  author = {Shubham Tulsiani and
+  Abhishek Kar and
+  Jo{\~{a}}o Carreira and
+  Jitendra Malik},
+  title = {Learning Category-Specific Deformable 3D
+  Models for Object Reconstruction},
+  journal = {TPAMI},
+  year = {2016},
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="eccv16flow" data-year="2016" data-topics="neural-rendering">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/arxiv16flow.png" alt="View Synthesis by Appearance Flow" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">View Synthesis by Appearance Flow</div>
+    <div class="card--project__authors">Tinghui Zhou, <strong>Shubham Tulsiani</strong>, Weilun Sun, Jitendra Malik, Alexei A. Efros</div>
+    <div class="card--project__venue">ECCV, 2016</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="http://arxiv.org/pdf/1605.03557v2.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('eccv16flowBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/tinghuiz/appearance-flow" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="eccv16flowBib">@incollection{appFlowZhou16,
+author = {Tinghui Zhou and
+Shubham Tulsiani and
+Weilun Sun and
+Jitendra Malik and
+Alexei A. Efros},
+title = {View Synthesis by Appearance Flow},
+booktitle = {ECCV},
+year = {2016}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Neural Rendering</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2015">
+  <span class="year-divider__label">2015</span>
+</div>
+<div class="card--project" id="iccv15pose" data-year="2015" data-topics="object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv15poseInd.png" alt="Pose Induction for Novel Object Categories" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Pose Induction for Novel Object Categories</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Jo&atilde;o Carreira, Jitendra Malik</div>
+    <div class="card--project__venue">ICCV, 2015</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1505.00066.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv15poseBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/shubhtuls/poseInduction" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="iccv15poseBib">@inProceedings{poseInductionTCM15,
+  author    = {Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Pose Induction for Novel Object Categories},
+  year={2015},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="iccv15amodal" data-year="2015" data-topics="object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/iccv15amodal.png" alt="Amodal Completion and Size Constancy in Natural Scenes" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Amodal Completion and Size Constancy in Natural Scenes</div>
+    <div class="card--project__authors">Abhishek Kar, <strong>Shubham Tulsiani</strong>, Jo&atilde;o Carreira, Jitendra Malik</div>
+    <div class="card--project__venue">ICCV, 2015</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1509.08147.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('iccv15amodalBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="iccv15amodalBib">@inProceedings{amodalKTCM15,
+  author    = {Abhishek Kar and
+               Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Amodal Completion and Size Constancy in Natural Scenes},
+  year={2015},
+  booktitle={International Conference on Computer Vision (ICCV)}
+ }</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr15vps" data-year="2015" data-topics="object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr15vpsKps.png" alt="Viewpoints and Keypoints" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Viewpoints and Keypoints</div>
+    <div class="card--project__authors"><strong>Shubham Tulsiani</strong>, Jitendra Malik</div>
+    <div class="card--project__venue">CVPR, 2015</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1411.6067.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr15vpsBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/shubhtuls/ViewpointsAndKeypoints" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr15vpsBib">@inProceedings{vpsKpsTulsianiM15,
+  author    = {Shubham Tulsiani and Jitendra Malik},
+  title     = {Viewpoints and Keypoints},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr15csdm" data-year="2015" data-topics="3d-reconstruction,object-understanding">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr15reconstruction.png" alt="Category-Specific Object Reconstruction from a Single Image" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Category-Specific Object Reconstruction from a Single Image</div>
+    <div class="card--project__authors">Abhishek Kar*, <strong>Shubham Tulsiani</strong>*, Jo&atilde;o Carreira, Jitendra Malik</div>
+    <div class="card--project__venue">CVPR, 2015 <span class="card--project__note">(Best Student Paper Award)</span></div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1411.6069.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="http://www.cs.berkeley.edu/~akar/categoryShapes/" target="_blank" rel="noopener">project page</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr15csdmBib')">bibtex</a>
+      <a class="card--project__link" href="https://github.com/akar43/CategoryShapes" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr15csdmBib">@inProceedings{shapesKarTCM15,
+  author    = {Abhishek Kar and
+               Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Category-Specific Object Reconstruction from a Single Image},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+      <span class="card--project__topic">Object Understanding</span>
+    </div>
+  </div>
+</div>
+<div class="card--project" id="cvpr15vvn" data-year="2015" data-topics="3d-reconstruction">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/cvpr15vvn.png" alt="Virtual View Networks for Object Reconstruction" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">Virtual View Networks for Object Reconstruction</div>
+    <div class="card--project__authors">Jo&atilde;o Carreira, Abhishek Kar, <strong>Shubham Tulsiani</strong>, Jitendra Malik</div>
+    <div class="card--project__venue">CVPR, 2015</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="https://arxiv.org/pdf/1411.6091.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('cvpr15vvnBib')">bibtex</a>
+      <a class="card--project__link" href="https://www.youtube.com/watch?v=JfDJji5sYXE&feature=youtu.be" target="_blank" rel="noopener">video</a>
+      <a class="card--project__link" href="http://www.cs.berkeley.edu/~carreira/vvn/" target="_blank" rel="noopener">code</a>
+    </div>
+    <pre class="bibtex-content" id="cvpr15vvnBib">@inProceedings{vvnCarreiraKTM15,
+  author    = {Jo{\~{a}}o Carreira and
+               Abhishek Kar and
+               Shubham Tulsiani and
+               Jitendra Malik},
+  title     = {Virtual View Networks for Object Reconstruction},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}</pre>
+    <div class="card--project__topics">
+      <span class="card--project__topic">3D Reconstruction</span>
+    </div>
+  </div>
+</div>
+<div class="year-divider" data-year="2013">
+  <span class="year-divider__label">2013</span>
+</div>
+<div class="card--project" id="uist13colors" data-year="2013" data-topics="">
+  <div class="card--project__media-wrap">
+    <img class="card--project__media" src="assets/figures/uist13.png" alt="A colorful approach to text processing by example" loading="lazy">
+  </div>
+  <div class="card--project__body">
+    <div class="card--project__title">A colorful approach to text processing by example</div>
+    <div class="card--project__authors">Kuat Yessenov, <strong>Shubham Tulsiani</strong>, Aditya Menon, Robert C Miller, Sumit Gulwani, Butler Lampson, Adam Kalai</div>
+    <div class="card--project__venue">UIST, 2013</div>
+    <div class="card--project__links">
+      <a class="card--project__link" href="papers/uist13colors.pdf" target="_blank" rel="noopener">pdf</a>
+      <a class="card--project__link" href="javascript:toggleblock('uist13colorsBib')">bibtex</a>
+    </div>
+    <pre class="bibtex-content" id="uist13colorsBib">@inproceedings{yessenov2013colorful,
+  title={A colorful approach to text processing by example},
+  author={Yessenov, Kuat and
+  Tulsiani, Shubham and
+  Menon, Aditya and
+  Miller, Robert C and
+  Gulwani,Sumit and
+  Lampson, Butler and
+  Kalai, Adam},
+  booktitle={UIST},
+  pages={495--504},
+  year={2013},
+  organization={ACM}
+}</pre>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div><a href="https://www.ri.cmu.edu/">Robotics Institute</a> &middot; <a href="https://www.cs.cmu.edu/">School of Computer Science</a> &middot; <a href="https://www.cmu.edu/">Carnegie Mellon University</a></div>
+    <div class="footer__line">Physical Perception Lab &middot; Pittsburgh, PA 15213</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/projects.js"></script>
+</body>
+</html>

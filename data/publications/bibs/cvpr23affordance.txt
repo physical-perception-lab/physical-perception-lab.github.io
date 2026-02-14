@@ -1,0 +1,6 @@
+@inproceedings{ye2023affordance,
+  title={Affordance Diffusion: Synthesizing Hand-Object Interactions}, 
+  author={Yufei Ye and Xueting Li and Abhinav Gupta  and Shalini De Mello  and Stan Birchfield, Jiaming Song and Shubham Tulsiani and Sifei Liu},
+  booktitle={CVPR},
+  year={2023}
+}

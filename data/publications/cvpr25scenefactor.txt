@@ -1,0 +1,9 @@
+title:: SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation
+img:: https://www.3dunderstanding.org/papers/2025/bokhovkin2025scenefactor/thumb.jpg
+author:: Alexey Bokhovkin, Quan Meng, Shubham Tulsiani, Angela Dai
+venue:: CVPR, 2025
+pdf:: https://arxiv.org/pdf/2412.01801
+project page:: https://alexeybokhovkin.github.io/scenefactor/
+bibtex:: bibs/cvpr25scenefactor.txt
+code:: https://github.com/alexeybokhovkin/SceneFactor
+topics:: generative-models, 3d-reconstruction

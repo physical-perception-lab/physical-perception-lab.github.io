@@ -1,0 +1,10 @@
+title:: Layer-structured 3D Scene Inference via View Synthesis
+img:: https://shubhtuls.github.io/lsi/resources/images/teaser.png
+author:: Shubham Tulsiani, Richard Tucker, Noah Snavely
+venue:: ECCV, 2018
+pdf:: https://arxiv.org/pdf/1807.10264.pdf
+project page:: https://shubhtuls.github.io/lsi/
+abstract:: abs/eccv18lsi.txt
+bibtex:: bibs/eccv18lsi.txt
+code:: https://github.com/google/layered-scene-inference
+topics:: 3d-reconstruction, neural-rendering

@@ -1,0 +1,6 @@
+@inProceedings{ye2021shelf,
+  title={Shelf-Supervised Mesh Prediction in the Wild},
+  author={Ye, Yufei and Tulsiani, Shubham and  Gupta, Abhinav},
+  year={2021},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}

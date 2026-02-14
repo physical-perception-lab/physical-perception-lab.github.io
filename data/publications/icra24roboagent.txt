@@ -1,0 +1,9 @@
+title:: RoboAgent: Towards Sample Efficient Robot Manipulation with Semantic Augmentations and Action Chunking
+img:: https://homangab.github.io/pics/robopen.png
+author:: Homanga Bharadhwaj*, Jay Vakil*, Mohit Sharma*, Abhinav Gupta, Shubham Tulsiani, Vikash Kumar
+venue:: ICRA, 2024
+pdf:: https://robopen.github.io/media/roboagent.pdf
+project page:: https://robopen.github.io/
+bibtex:: bibs/icra24roboagent.txt
+data:: https://robopen.github.io/roboset/
+topics:: robot-learning

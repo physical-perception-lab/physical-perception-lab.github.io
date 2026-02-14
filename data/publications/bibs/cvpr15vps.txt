@@ -1,0 +1,6 @@
+@inProceedings{vpsKpsTulsianiM15,
+  author    = {Shubham Tulsiani and Jitendra Malik},
+  title     = {Viewpoints and Keypoints},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}

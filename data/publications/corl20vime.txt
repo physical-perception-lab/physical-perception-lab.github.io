@@ -1,0 +1,11 @@
+title:: Visual Imitation Made Easy
+img:: https://dhiraj100892.github.io/Visual-Imitation-Made-Easy/resources/dataset.gif
+author:: Sarah Young, Dhiraj Gandhi, Shubham Tulsiani, Abhinav Gupta, Pieter Abbeel, Lerrel Pinto
+venue:: CORL, 2020
+pdf:: https://arxiv.org/pdf/2008.04899.pdf
+project page:: https://dhiraj100892.github.io/Visual-Imitation-Made-Easy/
+abstract:: abs/corl20vime.txt
+bibtex:: bibs/corl20vime.txt
+video:: https://www.youtube.com/watch?v=opizQ4bXSpk
+code:: https://github.com/sarahisyoung/Visual-Imitation-Made-Easy/
+topics:: robot-learning

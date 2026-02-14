@@ -1,0 +1,9 @@
+title:: LightSwitch: Multi-view Relighting with Material-guided Diffusion
+img:: https://yehonathanlitman.github.io/light_switch/videos/teaser/lightswitch_teaser_kitchen.mp4
+author:: Yehonathan Litman, Fernando De la Torre, Shubham Tulsiani
+venue:: ICCV, 2025
+pdf:: https://arxiv.org/pdf/2508.06494
+project page:: https://yehonathanlitman.github.io/light_switch/
+bibtex:: bibs/iccv25lightswitch.txt
+code:: https://github.com/yehonathanlitman/LightSwitch
+topics:: neural-rendering

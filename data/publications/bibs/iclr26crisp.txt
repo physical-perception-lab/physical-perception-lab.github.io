@@ -1,0 +1,6 @@
+@inproceedings{wang2026crisp,
+	title={Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives},
+	author={Zihan Wang and Jiashun Wang and Jeff Tan and Yiwen Zhao and Jessica K. Hodgins and Shubham Tulsiani and Deva Ramanan},
+	booktitle = {ICLR},
+	year={2026}
+}

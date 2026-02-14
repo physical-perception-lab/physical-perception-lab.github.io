@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{PAGE_TITLE}} - Physical Perception Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><img src="assets/logo.svg" alt="" class="nav__logo-img">Physical Perception Lab</a>
+    <button class="nav__hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html" class="nav__link {{NAV_OVERVIEW_ACTIVE}}">Overview</a></li>
+      <li><a href="projects.html" class="nav__link {{NAV_PROJECTS_ACTIVE}}">Projects</a></li>
+      <li><a href="people.html" class="nav__link {{NAV_PEOPLE_ACTIVE}}">Members</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+{{CONTENT}}
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div><a href="https://www.ri.cmu.edu/">Robotics Institute</a> &middot; <a href="https://www.cs.cmu.edu/">School of Computer Science</a> &middot; <a href="https://www.cmu.edu/">Carnegie Mellon University</a></div>
+    <div class="footer__line">Physical Perception Lab &middot; Pittsburgh, PA 15213</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+{{EXTRA_SCRIPTS}}
+</body>
+</html>

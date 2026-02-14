@@ -1,0 +1,8 @@
+@incollection{hspHane17,
+  author = {Christian H{\"a}ne and
+  Shubham Tulsiani and
+  Jitendra Malik},
+  title = {Hierarchical Surface Prediction for 3D Object Reconstruction},
+  booktitle = {arXiv preprint arXiv:1704.00710},
+  year = {2017}
+}

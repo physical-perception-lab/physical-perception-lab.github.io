@@ -1,0 +1,6 @@
+@inproceedings{ye2026haptic,
+	title={Predicting 4D Hand Trajectory from Monocular Videos},
+	author={Yufei Ye and Yao Feng and Omid Taheri and Haiwen Feng and Shubham Tulsiani and Michael J. Black},
+	booktitle = {3DV},
+	year={2026}
+}

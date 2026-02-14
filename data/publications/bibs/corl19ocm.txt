@@ -1,0 +1,6 @@
+@inProceedings{ye2019ocm,
+  title={Object-centric Forward Modeling for Model Predictive Control},
+  author={Ye, Yufei and Gandhi, Dhiraj and Gupta, Abhinav and Tulsiani, Shubham},
+  year={2019},
+  booktitle={Conference on Robot Learning (CORL)}
+}

@@ -1,0 +1,9 @@
+title:: Sparse-view Pose Estimation and Reconstruction via Analysis by Generative Synthesis
+img:: https://qitaozhao.github.io/images/SparseAGS.gif
+author:: Qitao Zhao, Shubham Tulsiani
+venue:: NeurIPS, 2024
+pdf:: https://arxiv.org/pdf/2412.03570
+project page:: https://qitaozhao.github.io/
+bibtex:: bibs/eccv24track2act.txt
+code:: https://github.com/QitaoZhao/SparseAGS/
+topics:: 3d-reconstruction

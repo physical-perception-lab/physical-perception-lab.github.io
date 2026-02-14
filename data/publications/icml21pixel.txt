@@ -1,0 +1,10 @@
+title:: PixelTransformer: Sample Conditioned Signal Generation
+img:: figures/icml21pixel.gif
+author:: Shubham Tulsiani, Abhinav Gupta
+venue:: ICML, 2021
+pdf:: https://arxiv.org/pdf/2103.15813.pdf
+project page:: https://shubhtuls.github.io/PixelTransformer/
+abstract:: abs/icml21pixel.txt
+bibtex:: bibs/icml21pixel.txt
+code:: https://github.com/shubhtuls/PixelTransformer
+topics:: generative-models

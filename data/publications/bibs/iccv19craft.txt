@@ -1,0 +1,6 @@
+@inProceedings{chen2019craft,
+  title={Order-Aware Generative Modeling Using the 3D-Craft Dataset},
+  author={Zhuoyuan Chen, Demi Guo, Tong Xiao, Saining Xie, Xinlei Chen, Haonan Yu, Jonathan Gray, Kavya Srinet, Haoqi Fan, Jerry Ma, Charles R. Qi, Shubham Tulsiani, Arthur Szlam, and C. Lawrence Zitnick},
+  booktitle={ICCV},
+  year={2019}
+}

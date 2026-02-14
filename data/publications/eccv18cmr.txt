@@ -1,0 +1,11 @@
+title:: Learning Category-Specific Mesh Reconstruction from Image Collections
+img:: figures/arxiv18cmr.png
+author:: Angjoo Kanazawa*, Shubham Tulsiani*, Alexei A. Efros, Jitendra Malik
+venue:: ECCV, 2018
+pdf:: https://arxiv.org/pdf/1803.07549.pdf
+project page:: https://akanazawa.github.io/cmr/
+abstract:: abs/eccv18cmr.txt
+bibtex:: bibs/eccv18cmr.txt
+video:: https://youtu.be/cYHQKtBLI3Q
+code:: https://github.com/akanazawa/cmr
+topics:: 3d-reconstruction, object-understanding

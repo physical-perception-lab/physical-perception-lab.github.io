@@ -1,0 +1,8 @@
+@inProceedings{poseInductionTCM15,
+  author    = {Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Pose Induction for Novel Object Categories},
+  year={2015},
+  booktitle={International Conference on Computer Vision (ICCV)}
+}

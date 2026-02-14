@@ -1,0 +1,6 @@
+@article{bharadhwaj2023towards,
+  title={Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans},
+  author={Bharadhwaj, Homanga and Gupta, Abhinav and Kumar, Vikash and Tulsiani, Shubham},
+  journal={arXiv preprint arXiv:2312.00775},
+  year={2023}
+}

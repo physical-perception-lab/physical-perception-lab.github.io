@@ -1,0 +1,11 @@
+title:: Category-Specific Object Reconstruction from a Single Image
+img:: figures/cvpr15reconstruction.png
+author:: Abhishek Kar*, Shubham Tulsiani*, Jo&atilde;o Carreira, Jitendra Malik
+venue:: CVPR, 2015
+pdf:: https://arxiv.org/pdf/1411.6069.pdf
+project page:: http://www.cs.berkeley.edu/~akar/categoryShapes/
+abstract:: abs/cvpr15csdm.txt
+bibtex:: bibs/cvpr15csdm.txt
+code:: https://github.com/akar43/CategoryShapes
+note:: Best Student Paper Award
+topics:: 3d-reconstruction, object-understanding

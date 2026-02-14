@@ -1,0 +1,9 @@
+title:: DressRecon: Freeform 4D Human Reconstruction from Monocular Video
+img:: https://jefftan969.github.io/dressrecon/img/dressrecon_icon.gif
+author:: Jeff Tan, Donglai Xiang, Shubham Tulsiani, Deva Ramanan, Gengshan Yang
+venue:: 3DV, 2025
+pdf:: https://arxiv.org/pdf/2409.20563
+project page:: https://jefftan969.github.io/dressrecon/
+bibtex:: bibs/3dv25dressrecon.txt
+code:: https://github.com/jefftan969/dressrecon
+topics:: 3d-reconstruction

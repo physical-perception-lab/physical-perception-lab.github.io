@@ -1,0 +1,9 @@
+title:: DemoDiffusion: One-Shot Human Imitation using Pre-trained Diffusion Policy
+img:: https://demodiffusion.github.io/static/videos/main/teaser_optimized.mp4
+author:: Sungjae Park, Homanga Bharadhwaj, Shubham Tulsiani
+venue:: ICRA, 2026
+pdf:: https://arxiv.org/pdf/2506.20668
+project page:: https://demodiffusion.github.io/
+bibtex:: bibs/icra26demodiffusion.txt
+code:: https://github.com/demodiffusion/demodiffusion
+topics:: robot-learning

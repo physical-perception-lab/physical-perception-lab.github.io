@@ -1,0 +1,10 @@
+title:: Shelf-Supervised Mesh Prediction in the Wild
+img:: https://judyye.github.io/ShSMesh/data/teaser.gif
+author:: Yufei Ye, Shubham Tulsiani, Abhinav Gupta
+venue:: CVPR, 2021
+pdf:: https://arxiv.org/pdf/2102.06195.pdf
+project page:: https://judyye.github.io/ShSMesh/
+abstract:: abs/cvpr21mesh.txt
+bibtex:: bibs/cvpr21mesh.txt
+code:: https://github.com/JudyYe/shelf-sup-mesh
+topics:: 3d-reconstruction, object-understanding

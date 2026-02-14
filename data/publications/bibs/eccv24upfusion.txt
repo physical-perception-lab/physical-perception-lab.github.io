@@ -1,0 +1,6 @@
+@inproceedings{kani24upfusion,
+  author    = {Nagoor Kani, Bharath Raj and Lee, Hsin-Ying and Tulyakov, Sergey and Tulsiani, Shubham},
+  title     = {UpFusion: Novel View Diffusion from Unposed Sparse View Observations},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year      = {2024}
+}

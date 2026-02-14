@@ -1,0 +1,6 @@
+@inProceedings{tulsiani2021pixel,
+  title={PixelTransformer: Sample Conditioned Signal Generation},
+  author={Tulsiani, Shubham and  Gupta, Abhinav},
+  year={2021},
+  booktitle={International Conference on Machine Learning (ICML)}
+}

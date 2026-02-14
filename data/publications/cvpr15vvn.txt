@@ -1,0 +1,10 @@
+title:: Virtual View Networks for Object Reconstruction
+img:: figures/cvpr15vvn.png
+author:: Jo&atilde;o Carreira, Abhishek Kar, Shubham Tulsiani, Jitendra Malik
+venue:: CVPR, 2015
+pdf:: https://arxiv.org/pdf/1411.6091.pdf
+abstract:: abs/cvpr15vvn.txt
+bibtex:: bibs/cvpr15vvn.txt
+video:: https://www.youtube.com/watch?v=JfDJji5sYXE&feature=youtu.be
+code:: http://www.cs.berkeley.edu/~carreira/vvn/
+topics:: 3d-reconstruction

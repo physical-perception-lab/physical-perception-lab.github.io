@@ -1,0 +1,7 @@
+@article{dean2020see,
+  title={See, hear, explore: Curiosity via audio-visual association},
+  author={Dean, Victoria and Tulsiani, Shubham and Gupta, Abhinav},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
+}

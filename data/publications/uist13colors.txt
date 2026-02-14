@@ -1,0 +1,8 @@
+title:: A colorful approach to text processing by example
+img:: figures/uist13.png
+author:: Kuat Yessenov, Shubham Tulsiani, Aditya Menon, Robert C Miller, Sumit Gulwani, Butler Lampson, Adam Kalai
+venue:: UIST, 2013
+pdf:: papers/uist13colors.pdf
+abstract:: abs/uist13colors.txt
+bibtex:: bibs/uist13colors.txt
+topics:: 

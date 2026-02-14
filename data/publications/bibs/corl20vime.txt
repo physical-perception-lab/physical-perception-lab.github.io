@@ -1,0 +1,6 @@
+@inProceedings{young2020vime,
+  title={Visual Imitation Made Easy},
+  author={Young, Sarah and Gandhi, Dhiraj and Tulsiani, Shubham and Gupta, Abhinav and Abbeel, Pieter and Pinto, Lerrel},
+  year={2020},
+  booktitle={Conference on Robot Learning (CORL)}
+}

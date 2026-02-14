@@ -1,0 +1,6 @@
+@inproceedings{huturbo3d,
+  title={Turbo3D: Ultra-fast Text-to-3D Generation},
+  author={Hanzhe Hu and Tianwei Yin and Fujun Luan and Yiwei Hu and Hao Tan and Zexiang Xu and Sai Bi and Shubham Tulsiani and Kai Zhang},
+  booktitle={CVPR},
+  year={2025} 
+}

@@ -1,0 +1,9 @@
+title:: SparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction
+img:: figures/cvpr23sparsefusion.gif
+author:: Zhizhuo Zhou, Shubham Tulsiani
+venue:: CVPR, 2023
+pdf:: https://arxiv.org/pdf/2212.00792
+project page:: https://sparsefusion.github.io/
+bibtex:: bibs/cvpr23sparsefusion.txt
+code:: https://github.com/zhizdev/sparsefusion
+topics:: 3d-reconstruction, generative-models

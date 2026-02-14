@@ -1,0 +1,9 @@
+title:: Where2Act: From Pixels to Actions for Articulated 3D Objects
+img:: https://kaichun-mo.github.io/papers/where2act.png
+author:: Kaichun Mo, Leonidas J. Guibas, Mustafa Mukadam, Abhinav Gupta, Shubham Tulsiani
+venue:: ICCV, 2021
+pdf:: https://arxiv.org/pdf/2101.02692.pdf
+abstract:: abs/iccv21act.txt
+bibtex:: bibs/iccv21act.txt
+code:: https://github.com/daerduoCarey/where2act
+topics:: robot-learning, object-understanding

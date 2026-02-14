@@ -1,0 +1,6 @@
+@article{BharadhwajVisual,	
+  Author = {Homanga Bharadhwaj and Abhinav Gupta and Shubham Tulsiani},	
+  Journal={IEEE International Conference on Robotics and Automation (ICRA)},	
+  Year = {2023},	
+  Title = {Visual Affordance Prediction for Guiding Robot Exploration}	
+}

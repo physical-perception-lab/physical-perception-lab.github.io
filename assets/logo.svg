@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- 3D cube wireframe suggesting spatial structure -->
+  <g fill="none" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Back face -->
+    <polygon points="20,8 36,8 36,24 20,24" stroke="#c41230" opacity="0.35"/>
+    <!-- Front face -->
+    <polygon points="12,16 28,16 28,32 12,32" stroke="#c41230" fill="#c41230" fill-opacity="0.08"/>
+    <!-- Connecting edges -->
+    <line x1="12" y1="16" x2="20" y2="8" stroke="#c41230" opacity="0.5"/>
+    <line x1="28" y1="16" x2="36" y2="8" stroke="#c41230" opacity="0.5"/>
+    <line x1="28" y1="32" x2="36" y2="24" stroke="#c41230" opacity="0.5"/>
+    <line x1="12" y1="32" x2="20" y2="24" stroke="#c41230" opacity="0.35"/>
+  </g>
+  <!-- Eye / perception element - a stylized lens at bottom right -->
+  <g transform="translate(28, 34)">
+    <ellipse cx="8" cy="4" rx="9" ry="5.5" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+    <circle cx="8" cy="4" r="2.8" fill="#c41230"/>
+    <circle cx="8" cy="4" r="1.2" fill="#1a1a1a"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+title:: DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion
+img:: https://qitaozhao.github.io/images/DiffusionSfM.gif
+author:: Qitao Zhao, Amy Lin, Jeff Tan, Jason Y. Zhang, Deva Ramanan, Shubham Tulsiani
+venue:: CVPR, 2025
+pdf:: https://arxiv.org/pdf/2504.13157
+project page:: https://qitaozhao.github.io/DiffusionSfM
+bibtex:: bibs/cvpr25diffusionsfm.txt
+code:: https://github.com/QitaoZhao/DiffusionSfM
+topics:: 3d-reconstruction

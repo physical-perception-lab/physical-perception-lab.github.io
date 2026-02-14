@@ -1,0 +1,6 @@
+@inproceedings{zhang2021ners,
+  title={{NeRS}: Neural Reflectance Surfaces for Sparse-view 3D Reconstruction in the Wild},
+  author={Zhang, Jason Y. and Yang, Gengshan and Tulsiani, Shubham and Ramanan, Deva},
+  booktitle={Conference on Neural Information Processing Systems},
+  year={2021}
+}

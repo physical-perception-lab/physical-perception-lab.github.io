@@ -1,0 +1,9 @@
+@inProceedings{vvnCarreiraKTM15,
+  author    = {Jo{\~{a}}o Carreira and
+               Abhishek Kar and
+               Shubham Tulsiani and
+               Jitendra Malik},
+  title     = {Virtual View Networks for Object Reconstruction},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}

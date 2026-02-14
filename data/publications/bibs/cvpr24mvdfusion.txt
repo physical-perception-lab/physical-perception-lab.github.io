@@ -1,0 +1,6 @@
+@inproceedings{hu2024mvdfusion,
+    title={MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation}, 
+    author={Hanzhe Hu and Zhizhuo Zhou and Varun Jampani and Shubham Tulsiani},
+    booktitle={CVPR},
+    year={2024}
+}

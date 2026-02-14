@@ -1,0 +1,9 @@
+title:: Intrinsic Motivation for Encouraging Synergistic Behavior
+img:: figures/iclr20synergy.png
+author:: Rohan Chitnis, Shubham Tulsiani, Saurabh Gupta, Abhinav Gupta
+venue:: ICLR, 2020
+pdf:: https://openreview.net/pdf?id=SJleNCNtDH
+project page:: https://sites.google.com/view/iclr2020-synergistic
+abstract:: abs/iclr20synergy.txt
+bibtex:: bibs/iclr20synergy.txt
+topics:: robot-learning

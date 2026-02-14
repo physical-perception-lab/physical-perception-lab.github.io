@@ -1,0 +1,6 @@
+@inproceedings{mittal2025uniphy,
+  title={UniPhy: Learning a Unified Constitutive Model for Inverse Physics Simulation},
+  author={Mittal, Himangi and Zhuang, Peiye and Lee, Hsin-Ying and Tulsiani, Shubham},
+  booktitle={CVPR},
+  year={2025} 
+}

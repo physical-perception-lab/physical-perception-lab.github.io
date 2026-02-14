@@ -1,0 +1,10 @@
+title:: What's in your hands? 3D Reconstruction of Generic Objects in Hands
+img:: figures/cvpr22ihoi.gif
+author:: Yufei Ye, Abhinav Gupta, Shubham Tulsiani
+venue:: CVPR, 2022
+pdf:: http://arxiv.org/pdf/2204.07153.pdf
+project page:: https://judyye.github.io/ihoi/
+abstract:: abs/cvpr22ihoi.txt
+bibtex:: bibs/cvpr22ihoi.txt
+code:: https://github.com/JudyYe/ihoi
+topics:: 3d-reconstruction, object-understanding

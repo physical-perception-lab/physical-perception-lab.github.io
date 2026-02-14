@@ -1,0 +1,10 @@
+title:: 3D-RelNet: Joint Object and Relational Network for 3D Prediction
+img:: figures/iccv19relnet.png
+author:: Nilesh Kulkarni, Ishan Misra, Shubham Tulsiani, Abhinav Gupta
+venue:: ICCV, 2019
+pdf:: https://arxiv.org/pdf/1906.02729
+project page:: https://nileshkulkarni.github.io/relative3d/
+abstract:: abs/iccv19relnet.txt
+bibtex:: bibs/iccv19relnet.txt
+code:: https://github.com/nileshkulkarni/relative3d
+topics:: 3d-reconstruction, object-understanding

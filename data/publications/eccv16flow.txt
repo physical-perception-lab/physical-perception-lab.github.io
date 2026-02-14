@@ -1,0 +1,9 @@
+title:: View Synthesis by Appearance Flow
+img:: figures/arxiv16flow.png
+author:: Tinghui Zhou, Shubham Tulsiani, Weilun Sun, Jitendra Malik, Alexei A. Efros
+venue:: ECCV, 2016
+pdf:: http://arxiv.org/pdf/1605.03557v2.pdf
+abstract:: abs/eccv16flow.txt
+bibtex:: bibs/eccv16flow.txt
+code:: https://github.com/tinghuiz/appearance-flow
+topics:: neural-rendering

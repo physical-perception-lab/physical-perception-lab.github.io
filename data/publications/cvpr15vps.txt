@@ -1,0 +1,9 @@
+title:: Viewpoints and Keypoints
+img:: figures/cvpr15vpsKps.png
+author:: Shubham Tulsiani, Jitendra Malik
+venue:: CVPR, 2015
+pdf:: https://arxiv.org/pdf/1411.6067.pdf
+abstract:: abs/cvpr15vps.txt
+bibtex:: bibs/cvpr15vps.txt
+code:: https://github.com/shubhtuls/ViewpointsAndKeypoints
+topics:: object-understanding

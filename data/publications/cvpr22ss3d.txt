@@ -1,0 +1,10 @@
+title:: Pre-train, Self-train, Distill: A simple recipe for Supersizing 3D Reconstruction
+img:: figures/cvpr22ss3d.gif
+author:: Kalyan Vasudev Alwala, Abhinav Gupta, Shubham Tulsiani
+venue:: CVPR, 2022
+pdf:: https://arxiv.org/pdf/2204.03642.pdf
+project page:: https://shubhtuls.github.io/ss3d/
+abstract:: abs/cvpr22ss3d.txt
+bibtex:: bibs/cvpr22ss3d.txt
+code:: https://github.com/facebookresearch/ss3d/
+topics:: 3d-reconstruction

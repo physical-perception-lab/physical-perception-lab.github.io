@@ -1,0 +1,10 @@
+@article{pamishapeTulsianiKCM15,
+  author = {Shubham Tulsiani and
+  Abhishek Kar and
+  Jo{\~{a}}o Carreira and
+  Jitendra Malik},
+  title = {Learning Category-Specific Deformable 3D
+  Models for Object Reconstruction},
+  journal = {TPAMI},
+  year = {2016},
+}

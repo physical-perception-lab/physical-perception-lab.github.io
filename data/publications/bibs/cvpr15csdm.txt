@@ -1,0 +1,9 @@
+@inProceedings{shapesKarTCM15,
+  author    = {Abhishek Kar and
+               Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Category-Specific Object Reconstruction from a Single Image},
+  year={2015},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}

@@ -1,0 +1,6 @@
+@article{bharadhwaj2023roboagent,
+  title={Roboagent: Generalization and efficiency in robot manipulation via semantic augmentations and action chunking},
+  author={Bharadhwaj, Homanga and Vakil, Jay and Sharma, Mohit and Gupta, Abhinav and Tulsiani, Shubham and Kumar, Vikash},
+  journal={arXiv preprint arXiv:2309.01918},
+  year={2023}
+}

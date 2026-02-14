@@ -1,0 +1,9 @@
+title:: Efficient Bimanual Manipulation using Learned Task Schemas
+img:: figures/icra20schema.png
+author:: Rohan Chitnis, Shubham Tulsiani, Saurabh Gupta, Abhinav Gupta
+venue:: ICRA, 2020
+preprint:: https://arxiv.org/pdf/1909.13874.pdf
+abstract:: abs/icra20schema.txt
+bibtex:: bibs/icra20schema.txt
+video:: https://www.youtube.com/watch?v=TBUEHk37a64
+topics:: robot-learning

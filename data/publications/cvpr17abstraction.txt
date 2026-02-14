@@ -1,0 +1,11 @@
+title:: Learning Shape Abstractions by Assembling Volumetric Primitives
+img:: https://shubhtuls.github.io/volumetricPrimitives/resources/images/teaser.png
+author:: Shubham Tulsiani, Hao Su, Leonidas J. Guibas, Alexei A. Efros, Jitendra Malik
+venue:: CVPR, 2017
+pdf:: https://arxiv.org/pdf/1612.00404.pdf
+project page:: https://shubhtuls.github.io/volumetricPrimitives/
+abstract:: abs/cvpr17abstraction.txt
+bibtex:: bibs/cvpr17abstraction.txt
+code (torch):: https://github.com/shubhtuls/volumetricPrimitives
+code (pytorch - unofficial):: https://github.com/nileshkulkarni/volumetricPrimitivesPytorch
+topics:: 3d-reconstruction, object-understanding

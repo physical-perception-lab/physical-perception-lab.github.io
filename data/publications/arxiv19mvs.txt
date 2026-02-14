@@ -1,0 +1,10 @@
+title:: Learning Unsupervised Multi-View Stereopsis via Robust Photometric Consistency
+img:: figures/arxiv19mvs.png
+author:: Tejas Khot*, Shubham Agrawal*, Shubham Tulsiani, Christoph Mertz, Simon Lucey, Martial Hebert
+venue:: arXiv preprint, 2019
+pdf:: https://arxiv.org/pdf/1905.02706.pdf
+project page:: https://tejaskhot.github.io/unsup_mvs/
+abstract:: abs/arxiv19mvs.txt
+bibtex:: bibs/arxiv19mvs.txt
+code:: https://github.com/tejaskhot/unsup_mvs
+topics:: 3d-reconstruction

@@ -1,0 +1,9 @@
+title:: Visual Affordance Prediction for Guiding Robot Exploration
+img:: https://homangab.github.io/pics/affordance.png
+author:: Homanga Bharadhwaj, Abhinav Gupta, Shubham Tulsiani
+venue:: ICRA, 2023
+pdf:: https://homangab.github.io/papers/affordance_exploration_icra.pdf
+project page:: https://sites.google.com/andrew.cmu.edu/affordance-robotics/home
+bibtex:: bibs/icra23affordance.txt
+code:: https://github.com/homangab/visual_affordance_robot_exploration
+topics:: robot-learning

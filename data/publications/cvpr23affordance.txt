@@ -1,0 +1,8 @@
+title:: Affordance Diffusion: Synthesizing Hand-Object Interactions
+img:: figures/cvpr23affordance.gif
+author:: Yufei Ye, Xueting Li, Abhinav Gupta, Shalini De Mello, Stan Birchfield, Jiaming Song, Shubham Tulsiani, Sifei Liu
+venue:: CVPR, 2023
+pdf:: https://arxiv.org/pdf/2303.12538
+project page:: https://judyye.github.io/affordiffusion-www/
+bibtex:: bibs/cvpr23affordance.txt
+topics:: object-understanding, generative-models

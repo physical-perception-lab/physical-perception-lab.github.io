@@ -1,0 +1,9 @@
+title:: Hierarchical Surface Prediction
+img:: figures/pami19hsp.png
+author:: Christian H&auml;ne, Shubham Tulsiani, Jitendra Malik
+venue:: TPAMI, 2019 (journal version of <a href="https://arxiv.org/pdf/1704.00710.pdf">HSP</a>)
+pdf:: papers/pami19hsp.pdf
+abstract:: abs/pami19hsp.txt
+bibtex:: bibs/pami19hsp.txt
+code:: https://github.com/chaene/hsp
+topics:: 3d-reconstruction

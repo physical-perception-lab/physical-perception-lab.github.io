@@ -1,0 +1,14 @@
+@inproceedings{yessenov2013colorful,
+  title={A colorful approach to text processing by example},
+  author={Yessenov, Kuat and
+  Tulsiani, Shubham and
+  Menon, Aditya and
+  Miller, Robert C and
+  Gulwani,Sumit and
+  Lampson, Butler and
+  Kalai, Adam},
+  booktitle={UIST},
+  pages={495--504},
+  year={2013},
+  organization={ACM}
+}

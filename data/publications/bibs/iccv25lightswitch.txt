@@ -1,0 +1,6 @@
+@inproceedings{litman2025lightswitch,
+	title={LightSwitch: Multi-view Relighting with Material-guided Diffusion},
+	author={Yehonathan Litman and Fernando De la Torre and Shubham Tulsiani},
+	booktitle = {ICCV},
+	year={2025}
+}

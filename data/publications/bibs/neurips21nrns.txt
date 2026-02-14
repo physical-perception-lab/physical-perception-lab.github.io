@@ -1,0 +1,6 @@
+@article{hahn2021nrns,
+    title={No RL, No Simulation: Learning to Navigate without Navigating},
+    author={Meera Hahn and Devendra Chaplot and Shubham Tulsiani and Mustafa Mukadam and James Rehg and Abhinav Gupta},
+    booktitle={Neural Information Processing Systems},
+    year={2021},
+}

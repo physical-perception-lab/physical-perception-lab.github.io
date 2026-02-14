@@ -1,0 +1,13 @@
+title:: Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency
+img:: figures/cvpr17drc.png
+author:: Shubham Tulsiani, Tinghui Zhou, Alexei A. Efros, Jitendra Malik
+venue:: CVPR, 2017
+pdf:: https://arxiv.org/pdf/1704.06254.pdf
+project page:: https://shubhtuls.github.io/drc/
+abstract:: abs/cvpr17drc.txt
+bibtex:: bibs/cvpr17drc.txt
+slides:: https://people.eecs.berkeley.edu/~shubhtuls/slides/cvpr17drc.pdf
+talk:: https://www.youtube.com/watch?v=i--alz5-lTc
+code:: https://github.com/shubhtuls/drc
+blog post:: http://bair.berkeley.edu/blog/2017/07/11/confluence-of-geometry-and-learning/
+topics:: 3d-reconstruction

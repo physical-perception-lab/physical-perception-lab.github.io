@@ -1,0 +1,6 @@
+@inproceedings{ye2023vhoi,
+        author = {Ye, Yufei and Hebbar, Poorvi and Gupta, Abhinav and Tulsiani, Shubham}
+        title = {Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips},
+        booktitle = {ICCV},
+        year = {2023}
+}

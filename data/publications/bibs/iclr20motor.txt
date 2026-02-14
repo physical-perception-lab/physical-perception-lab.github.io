@@ -1,0 +1,6 @@
+@inproceedings{shankar20motor,
+  title={Discovering Motor Programs by Recomposing Demonstrations},
+  author={Shankar, Tanmay and Tulsiani, Shubham and Pinto, Lerrel and Gupta, Abhinav},
+  booktitle={ICLR},
+  year={2020}
+}

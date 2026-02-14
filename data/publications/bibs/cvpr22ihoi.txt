@@ -1,0 +1,6 @@
+@inProceedings{ye2022ihoi,
+  title={What's in your hands? 3D Reconstruction of Generic Objects in Hands},
+  author={Ye, Yufei and  Gupta, Abhinav and Tulsiani, Shubham},
+  year={2022},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)}
+}

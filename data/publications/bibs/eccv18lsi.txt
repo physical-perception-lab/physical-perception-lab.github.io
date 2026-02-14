@@ -1,0 +1,8 @@
+@inProceedings{lsiTulsiani18,
+  title={Layer-structured 3D Scene Inference via View Synthesis},
+  author = {Shubham Tulsiani
+  and Richard Tucker
+  and Noah Snavely},
+  booktitle={ECCV},
+  year={2018}
+}

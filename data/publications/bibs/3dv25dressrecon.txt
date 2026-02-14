@@ -1,0 +1,6 @@
+@inproceedings{tan2024dressrecon,
+  title={DressRecon: Freeform 4D Human Reconstruction from Monocular Video},
+    author={Tan, Jeff and Xiang, Donglai and Tulsiani, Shubham and Ramanan, Deva and Yang, Gengshan},
+  booktitle = {3DV},
+  year      = {2025}
+}

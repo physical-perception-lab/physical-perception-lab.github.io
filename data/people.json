@@ -1,0 +1,153 @@
+{
+  "pi": {
+    "name": "Shubham Tulsiani",
+    "photo": "assets/people/shubham.jpg",
+    "bio": "I am an Assistant Professor at Carnegie Mellon University in the <a href=\"https://www.ri.cmu.edu/\">Robotics Institute</a>, where I am a part of the <a href=\"http://vision.cs.cmu.edu/\">Computer Vision group</a>. I am interested in building perception systems that can infer the spatial and physical structure of the world they observe.",
+    "bio_extra": "Prior to joining CMU, I was a Research Scientist at <a href=\"https://research.fb.com/category/facebook-ai-research/\">FAIR</a>, Pittsburgh working with <a href=\"https://www.cs.cmu.edu/~abhinavg/\">Abhinav Gupta</a>. I previously graduated from UC, Berkeley where I was advised by <a href=\"http://www.eecs.berkeley.edu/~malik\">Jitendra Malik</a>, and also frequently collaborated with <a href=\"http://www.eecs.berkeley.edu/~efros\">Alyosha Efros</a>.",
+    "email": "shubhtuls AT cmu.edu",
+    "links": {
+      "Google Scholar": "https://scholar.google.com/citations?user=06rffEkAAAAJ&hl=en",
+      "Twitter": "https://twitter.com/shubhtuls"
+    }
+  },
+  "phd_students": [
+    {
+      "name": "Hanzhe Hu",
+      "url": "https://hzhupku.github.io/",
+      "photo": "assets/people/hanzhe.jpg"
+    },
+    {
+      "name": "Himangi Mittal",
+      "url": "https://himangim.github.io/",
+      "photo": "assets/people/himangi.jpg"
+    },
+    {
+      "name": "Qitao Zhao",
+      "url": "https://qitaozhao.github.io/",
+      "photo": "assets/people/qitao.jpg"
+    },
+    {
+      "name": "Yehonathan Litman",
+      "url": "https://yehonathanlitman.github.io",
+      "photo": "assets/people/yehonathan.jpg",
+      "note": "co-advised with Fernando De la Torre"
+    },
+    {
+      "name": "Yuxuan Kuang",
+      "url": "https://yuxuank.com/",
+      "photo": "assets/people/yuxuan.jpg",
+      "note": "co-advised with Katerina Fragkiadaki"
+    }
+  ],
+  "ms_students": [
+    {
+      "name": "Clara Cong",
+      "url": "https://kidrauh.github.io/",
+      "photo": "assets/people/clara.jpg",
+      "program": "MSCV"
+    },
+    {
+      "name": "Lucas Wu",
+      "url": "https://lucas-707.github.io/",
+      "photo": "assets/people/lucas.jpg",
+      "program": "MSR"
+    },
+    {
+      "name": "Minsik Jeon",
+      "url": "https://msjeon.me/",
+      "photo": "assets/people/minsik.jpg",
+      "program": "MSR"
+    },
+    {
+      "name": "Soumojit Bhattacharya",
+      "url": "https://babayaga840.github.io/",
+      "photo": "assets/people/soumojit.jpg",
+      "program": "MSR",
+      "note": "co-advised with Oliver Kroemer"
+    },
+    {
+      "name": "Sungjae Park",
+      "url": "https://rureadyo.github.io/",
+      "photo": "assets/people/sungjae.jpg",
+      "program": "MSR"
+    }
+  ],
+  "prospective_text": "<p>Dear Prospective Students,</p><p>Thanks for the interest in being a part of our group! Unfortunately, I am unable to reply to individual emails, but hope you find the following helpful:</p><h4>I am a CMU student. How do I join your group?</h4><p>Send me an email and/or drop by my office - I'd be happy to chat! If you are an undergraduate, also consider reaching out to the PhD students in our group if their projects align with your interests.</p><h4>I want to join CMU. What graduate programs should I apply to?</h4><p><strong>PhD Applicants:</strong> While I am primarily affiliated with RI, I can supervise students admitted in any SCS department (e.g. MLD, CSD) so apply to the department that best matches your interests and background. If you are interested in working with me, mention this in your application statement.</p><p><strong>MS Applicants:</strong> RI offers <a href=\"https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/\">MSR</a> (research focused) and <a href=\"https://www.ri.cmu.edu/education/academic-programs/master-of-science-computer-vision/\">MSCV</a> (industry focused) MS programs among others. Please apply to the program most aligned with your future goals.</p><h4>Should I contact you before applying to CMU for admission?</h4><p>Admissions across all PhD/MS programs are done by department-level committees and I am unable to help with individual applications. Please do feel free to reach out <em>after</em> you are admitted.</p><h4>Are you accepting interns/visitors?</h4><p>We do not have any short-term positions at this time.</p>",
+  "alumni": {
+    "phd": [
+      {
+        "name": "Jason Zhang",
+        "url": "https://jasonyzhang.com/",
+        "thesis": "Sparse-view 3D in the Wild",
+        "year": 2024,
+        "destination": "Google",
+        "note": "co-advised with Deva Ramanan"
+      },
+      {
+        "name": "Yufei Ye",
+        "url": "https://judyye.github.io/",
+        "thesis": "Learning to Perceive and Predict Everyday Interactions",
+        "year": 2024,
+        "destination": "Postdoc at Stanford",
+        "note": "co-advised with Abhinav Gupta"
+      },
+      {
+        "name": "Homanga Bharadhwaj",
+        "url": "https://homangab.github.io/",
+        "thesis": "Watch, Predict, Act: Robot Learning meets Web Videos",
+        "year": 2025,
+        "destination": "Meta",
+        "note": "co-advised with Abhinav Gupta"
+      }
+    ],
+    "msr": [
+      {
+        "name": "Yanbo Xu",
+        "url": "https://yanbo-xu.netlify.app/",
+        "destination": "PhD at Princeton"
+      },
+      {
+        "name": "Bharath Raj",
+        "url": "https://thatbrguy.github.io/",
+        "destination": "PhD at Cornell"
+      },
+      {
+        "name": "Zhizhuo (Z) Zhou",
+        "url": "https://www.zhiz.dev/",
+        "destination": "PhD at Stanford"
+      }
+    ],
+    "mscv": [
+      {
+        "name": "Rena Ju",
+        "url": "https://www.linkedin.com/in/rena-ju/"
+      },
+      {
+        "name": "Poorvi Hebbar",
+        "url": "https://poorvirhebbar.github.io/"
+      },
+      {
+        "name": "Naveen Venkat",
+        "url": "https://serverprocessor.wordpress.com/"
+      },
+      {
+        "name": "Mayank Agarwal",
+        "url": "https://mayankgrwl97.github.io/"
+      },
+      {
+        "name": "Yen-Chi Cheng",
+        "url": "https://yccyenchicheng.github.io/"
+      },
+      {
+        "name": "Paritosh Mittal",
+        "url": "https://paritoshmittal12.github.io/"
+      }
+    ],
+    "undergrad": [
+      {
+        "name": "Amy Lin",
+        "url": "https://amyxlase.github.io/"
+      }
+    ]
+  }
+}

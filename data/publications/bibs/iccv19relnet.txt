@@ -1,0 +1,6 @@
+@inProceedings{kulkarni2019relnet,
+  title={3D-RelNet: Joint Object and Relational Network for 3D Prediction},
+  author={Nilesh Kulkarni, Ishan Misra, Shubham Tulsiani, Abhinav Gupta},
+  booktitle={ICCV},
+  year={2019}
+}

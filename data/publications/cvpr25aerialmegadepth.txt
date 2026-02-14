@@ -1,0 +1,9 @@
+title:: AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis
+img:: https://www.khiemvuong.com/projects/aerialmd_cvpr25/teaser_cvpr2025.m4v
+author:: Khiem Vuong, Anurag Ghosh, Deva Ramanan*, Srinivasa Narasimhan*, Shubham Tulsiani*
+venue:: CVPR, 2025
+pdf:: https://arxiv.org/pdf/2504.13157
+project page:: https://aerial-megadepth.github.io/
+bibtex:: bibs/cvpr25aerialmegadepth.txt
+code:: https://github.com/kvuong2711/aerial-megadepth
+topics:: 3d-reconstruction

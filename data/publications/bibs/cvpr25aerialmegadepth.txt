@@ -1,0 +1,6 @@
+@inproceedings{vuong2025aerialmegadepth,
+  title={AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis},
+  author={Vuong, Khiem and Ghosh, Anurag and Ramanan, Deva and Narasimhan, Srinivasa and Tulsiani, Shubham},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025},
+}

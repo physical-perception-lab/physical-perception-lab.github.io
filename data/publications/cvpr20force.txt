@@ -1,0 +1,10 @@
+title:: Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects
+img:: figures/cvpr20force.png
+author:: Kiana Ehsani, Shubham Tulsiani, Saurabh Gupta, Ali Farhadi, Abhinav Gupta
+venue:: CVPR, 2020
+pdf:: https://arxiv.org/pdf/2003.12045.pdf
+project page:: https://ehsanik.github.io/forcecvpr2020/
+abstract:: abs/cvpr20force.txt
+bibtex:: bibs/cvpr20force.txt
+code:: https://github.com/ehsanik/touchTorch
+topics:: physics-dynamics

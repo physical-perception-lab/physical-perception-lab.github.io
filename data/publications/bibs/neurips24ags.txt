@@ -1,0 +1,6 @@
+@inproceedings{zhao2024sparseags,
+  title={Sparse-view Pose Estimation and Reconstruction via Analysis by Generative Synthesis}, 
+  author={Qitao Zhao and Shubham Tulsiani},
+  booktitle={NeurIPS},
+  year={2024}
+}

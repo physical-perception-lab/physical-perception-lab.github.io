@@ -1,0 +1,9 @@
+title:: Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives
+img:: https://crisp-real2sim.github.io/CRISP-Real2Sim/static/videos/demo_video.mp4
+author:: Zihan Wang, Jiashun Wang, Jeff Tan, Yiwen Zhao, Jessica K. Hodgins, Shubham Tulsiani, Deva Ramanan
+venue:: ICLR, 2026
+pdf:: https://arxiv.org/pdf/2512.14696
+project page:: https://crisp-real2sim.github.io/CRISP-Real2Sim/
+bibtex:: bibs/iclr26crisp.txt
+code:: https://github.com/Z1hanW/CRISP-Real2Sim
+topics:: physics-dynamics, 3d-reconstruction

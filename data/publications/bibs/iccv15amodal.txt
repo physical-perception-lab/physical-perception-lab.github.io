@@ -1,0 +1,9 @@
+@inProceedings{amodalKTCM15,
+  author    = {Abhishek Kar and
+               Shubham Tulsiani and
+               Jo{\~{a}}o Carreira and
+               Jitendra Malik},
+  title     = {Amodal Completion and Size Constancy in Natural Scenes},
+  year={2015},
+  booktitle={International Conference on Computer Vision (ICCV)}
+ }

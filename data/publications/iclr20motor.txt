@@ -1,0 +1,8 @@
+title:: Discovering Motor Programs by Recomposing Demonstrations
+img:: figures/iclr20motor.png
+author:: Tanmay Shankar, Shubham Tulsiani, Lerrel Pinto, Abhinav Gupta
+venue:: ICLR, 2020
+pdf:: https://openreview.net/pdf?id=rkgHY0NYwr
+abstract:: abs/iclr20motor.txt
+bibtex:: bibs/iclr20motor.txt
+topics:: robot-learning

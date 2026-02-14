@@ -1,0 +1,9 @@
+title:: RelPose++: Recovering 6D Poses from Sparse-view Observations
+img:: https://jasonyzhang.com/assets/img/relposepp_espresso_small.mp4
+author:: Amy Lin*, Jason Y. Zhang*, Deva Ramanan, Shubham Tulsiani
+venue:: 3DV, 2024
+pdf:: https://arxiv.org/pdf/2305.04926.pdf
+project page:: https://amyxlase.github.io/relpose-plus-plus/
+bibtex:: bibs/3dv24relposepp.txt
+code:: https://github.com/amyxlase/relpose-plus-plus
+topics:: 3d-reconstruction

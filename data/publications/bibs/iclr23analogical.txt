@@ -1,0 +1,6 @@
+@article{gkanatsios2023analogical,
+  author    = {Gkanatsios, Nikolaos and Singh, Mayank and Fang, Zhaoyuan and Tulsiani, Shubham and Fragkiadaki, Katerina},
+  title     = {Analogy-Forming Transformers for Few-Shot 3D Parsing},
+  journal   = {ICLR},
+  year      = {2023},
+}

@@ -1,0 +1,9 @@
+title:: Object-centric Forward Modeling for Model Predictive Control
+img:: figures/corl19ocm.png
+author:: Yufei Ye, Dhiraj Gandhi, Abhinav Gupta, Shubham Tulsiani
+venue:: CORL, 2019
+pdf:: https://arxiv.org/pdf/1910.03568.pdf
+project page:: https://judyye.github.io/ocmpc/
+abstract:: abs/corl19ocm.txt
+bibtex:: bibs/corl19ocm.txt
+topics:: physics-dynamics, robot-learning

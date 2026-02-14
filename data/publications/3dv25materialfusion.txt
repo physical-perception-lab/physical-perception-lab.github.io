@@ -1,0 +1,9 @@
+title:: MaterialFusion: Enhancing Inverse Rendering with Material Diffusion Priors
+img:: https://yehonathanlitman.github.io/images/materialfusion.mp4
+author:: Yehonathan Litman, Or Patashnik, Kangle Deng, Aviral Agrawal, Rushikesh Zawar, Fernando De la Torre, Shubham Tulsiani
+venue:: 3DV, 2025
+pdf:: https://arxiv.org/pdf/2409.15273
+project page:: https://yehonathanlitman.github.io/material_fusion/
+bibtex:: bibs/3dv25materialfusion.txt
+code:: https://github.com/yehonathanlitman/MaterialFusion
+topics:: neural-rendering

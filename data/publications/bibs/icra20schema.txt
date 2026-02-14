@@ -1,0 +1,6 @@
+@inproceedings{chitnis20schema,
+  title={Efficient Bimanual Manipulation Using Learned Task Schemas},
+  author={Chitnis, Rohan and Tulsiani, Shubham and Gupta, Saurabh and Gupta, Abhinav},
+  booktitle={ICRA},
+  year={2020}
+}

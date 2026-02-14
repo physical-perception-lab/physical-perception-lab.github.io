@@ -1,0 +1,9 @@
+title:: Learning Category-Specific Deformable 3D Models for Object Reconstruction
+img:: figures/pami16reconstruction.png
+author:: Shubham Tulsiani*, Abhishek Kar*, João Carreira, Jitendra Malik
+venue:: TPAMI, 2016
+pdf:: papers/pami16reconstruction.pdf
+abstract:: abs/pami16reconstruction.txt
+bibtex:: bibs/pami16reconstruction.txt
+code:: https://github.com/akar43/CategoryShapes
+topics:: 3d-reconstruction, object-understanding

@@ -1,0 +1,10 @@
+title:: Compositional Video Prediction
+img:: figures/iccv19cvp_static.png
+author:: Yufei Ye, Maneesh Singh, Abhinav Gupta*, Shubham Tulsiani*
+venue:: ICCV, 2019
+pdf:: https://arxiv.org/pdf/1908.08522.pdf
+project page:: https://judyye.github.io/CVP/
+abstract:: abs/iccv19cvp.txt
+bibtex:: bibs/iccv19cvp.txt
+code:: https://github.com/JudyYe/CVP
+topics:: physics-dynamics, generative-models

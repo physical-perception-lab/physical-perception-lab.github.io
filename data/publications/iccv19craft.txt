@@ -1,0 +1,8 @@
+title:: Order-Aware Generative Modeling Using the 3D-Craft Dataset
+img:: figures/iccv19craft.png
+author:: Zhuoyuan Chen*, Demi Guo*, Tong Xiao*, et. al.
+venue:: ICCV, 2019
+pdf:: http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Order-Aware_Generative_Modeling_Using_the_3D-Craft_Dataset_ICCV_2019_paper.pdf
+abstract:: abs/iccv19craft.txt
+bibtex:: bibs/iccv19craft.txt
+topics:: generative-models

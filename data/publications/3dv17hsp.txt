@@ -1,0 +1,10 @@
+title:: Hierarchical Surface Prediction for 3D Object Reconstruction
+img:: figures/iccv17hsp.png
+author:: Christian H&auml;ne, Shubham Tulsiani, Jitendra Malik
+venue:: 3DV, 2017
+pdf:: https://arxiv.org/pdf/1704.00710.pdf
+abstract:: abs/3dv17hsp.txt
+bibtex:: bibs/3dv17hsp.txt
+slides:: https://people.eecs.berkeley.edu/~chaene/publications/haene2017hspICCVTalk.pdf
+code:: https://github.com/chaene/hsp
+topics:: 3d-reconstruction

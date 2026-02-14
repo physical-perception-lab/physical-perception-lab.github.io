@@ -1,0 +1,8 @@
+@article{hspHane19,
+  author = {Christian H{\"a}ne and
+  Shubham Tulsiani and
+  Jitendra Malik},
+  title = {Hierarchical Surface Prediction},
+  journal = {TPAMI},
+  year = {2019},
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overview - Physical Perception Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><img src="assets/logo.svg" alt="" class="nav__logo-img">Physical Perception Lab</a>
+    <button class="nav__hamburger" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html" class="nav__link nav__link--active">Overview</a></li>
+      <li><a href="projects.html" class="nav__link ">Projects</a></li>
+      <li><a href="people.html" class="nav__link ">Members</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+<section class="hero">
+  <div class="container">
+    <h1 class="hero__title">Physical Perception Lab</h1>
+    <p class="hero__subtitle">Carnegie Mellon University &middot; Robotics Institute</p>
+    <div class="hero__description">
+      <p>Our group is interested in inferring physically and spatially grounded representations from perceptual input, and leveraging these for advances in fundamental problems in computer vision and robot manipulation.</p>
+      <p>Our research spans 3D reconstruction and neural rendering from sparse observations, physics-based simulation and dynamics prediction, object-centric understanding and shape reasoning, generative models for 3D content creation, and robot learning for manipulation tasks.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="container">
+    <h2 class="section__title section__title--center">Featured Projects</h2>
+    <div class="featured-grid" id="featured-grid">
+    </div>
+    <div class="btn-wrapper">
+      <a href="projects.html" class="btn btn--primary">View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<script id="featured-data" type="application/json">
+[
+  {
+    "id": "icra26demodiffusion",
+    "title": "DemoDiffusion: One-Shot Human Imitation using Pre-trained Diffusion Policy",
+    "img": "https://demodiffusion.github.io/static/videos/main/teaser_optimized.mp4",
+    "venue": "ICRA, 2026",
+    "project_page": "https://demodiffusion.github.io/",
+    "pdf": "https://arxiv.org/pdf/2506.20668"
+  },
+  {
+    "id": "iccv25lightswitch",
+    "title": "LightSwitch: Multi-view Relighting with Material-guided Diffusion",
+    "img": "https://yehonathanlitman.github.io/light_switch/videos/teaser/lightswitch_teaser_kitchen.mp4",
+    "venue": "ICCV, 2025",
+    "project_page": "https://yehonathanlitman.github.io/light_switch/",
+    "pdf": "https://arxiv.org/pdf/2508.06494"
+  },
+  {
+    "id": "cvpr25diffusionsfm",
+    "title": "DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion",
+    "img": "https://qitaozhao.github.io/images/DiffusionSfM.gif",
+    "venue": "CVPR, 2025",
+    "project_page": "https://qitaozhao.github.io/DiffusionSfM",
+    "pdf": "https://arxiv.org/pdf/2504.13157"
+  },
+  {
+    "id": "cvpr25turbo3d",
+    "title": "Turbo3D: Ultra-fast Text-to-3D Generation",
+    "img": "https://hzhupku.github.io/image/pubpage/turbo3d.gif",
+    "venue": "CVPR, 2025",
+    "project_page": "https://turbo-3d.github.io/",
+    "pdf": "https://arxiv.org/pdf/2412.04470"
+  },
+  {
+    "id": "neurips24ags",
+    "title": "Sparse-view Pose Estimation and Reconstruction via Analysis by Generative Synthesis",
+    "img": "https://qitaozhao.github.io/images/SparseAGS.gif",
+    "venue": "NeurIPS, 2024",
+    "project_page": "https://qitaozhao.github.io/",
+    "pdf": "https://arxiv.org/pdf/2412.03570"
+  },
+  {
+    "id": "eccv24track2act",
+    "title": "Track2Act: Predicting Point Tracks from Internet Videos Enables Diverse Zero-shot Manipulation",
+    "img": "https://homangab.github.io/pics/glimpse.gif",
+    "venue": "ECCV, 2024",
+    "project_page": "https://homangab.github.io/track2act/",
+    "pdf": "https://arxiv.org/pdf/2405.01527"
+  },
+  {
+    "id": "cvpr24ghop",
+    "title": "G-HOP: Generative Hand-Object Prior for Interaction Reconstruction and Grasp Synthesis",
+    "img": "assets/figures/cvpr24ghop.png",
+    "venue": "CVPR, 2024",
+    "project_page": "https://judyye.github.io/ghop-www/",
+    "pdf": "https://arxiv.org/pdf/2404.12383"
+  },
+  {
+    "id": "iclr24rays",
+    "title": "Cameras as Rays: Pose Estimation via Ray Diffusion",
+    "img": "https://jasonyzhang.com/assets/img/ray_diffusion_book_small.mp4",
+    "venue": "ICLR, 2024",
+    "project_page": "https://jasonyzhang.com/RayDiffusion/",
+    "pdf": "https://arxiv.org/pdf/2402.14817.pdf"
+  },
+  {
+    "id": "icra24hopman",
+    "title": "Towards Generalizable Zero-Shot Manipulation via Translating Human Interaction Plans",
+    "img": "assets/figures/icra24hopman.gif",
+    "venue": "ICRA, 2024",
+    "project_page": "https://homangab.github.io/hopman/",
+    "pdf": "https://homangab.github.io/hopman/hopman_paper_appendix.pdf"
+  },
+  {
+    "id": "cvpr23sparsefusion",
+    "title": "SparseFusion: Distilling View-conditioned Diffusion for 3D Reconstruction",
+    "img": "assets/figures/cvpr23sparsefusion.gif",
+    "venue": "CVPR, 2023",
+    "project_page": "https://sparsefusion.github.io/",
+    "pdf": "https://arxiv.org/pdf/2212.00792"
+  },
+  {
+    "id": "cvpr22ihoi",
+    "title": "What's in your hands? 3D Reconstruction of Generic Objects in Hands",
+    "img": "assets/figures/cvpr22ihoi.gif",
+    "venue": "CVPR, 2022",
+    "project_page": "https://judyye.github.io/ihoi/",
+    "pdf": "http://arxiv.org/pdf/2204.07153.pdf"
+  },
+  {
+    "id": "cvpr22autosdf",
+    "title": "AutoSDF: Shape Priors for 3D Completion, Reconstruction and Generation",
+    "img": "assets/figures/cvpr22autosdf.gif",
+    "venue": "CVPR, 2022",
+    "project_page": "https://yccyenchicheng.github.io/AutoSDF/",
+    "pdf": "https://arxiv.org/pdf/2203.09516.pdf"
+  },
+  {
+    "id": "neurips21ners",
+    "title": "NeRS: Neural Reflectance Surfaces for Sparse-view 3D Reconstruction in the Wild",
+    "img": "assets/figures/neurips21ners.gif",
+    "venue": "NeurIPS, 2021",
+    "project_page": "https://jasonyzhang.com/ners/",
+    "pdf": "https://arxiv.org/pdf/2110.07604"
+  },
+  {
+    "id": "iccv21act",
+    "title": "Where2Act: From Pixels to Actions for Articulated 3D Objects",
+    "img": "https://kaichun-mo.github.io/papers/where2act.png",
+    "venue": "ICCV, 2021",
+    "project_page": "",
+    "pdf": "https://arxiv.org/pdf/2101.02692.pdf"
+  },
+  {
+    "id": "cvpr20force",
+    "title": "Use the Force, Luke! Learning to Predict Physical Forces by Simulating Effects",
+    "img": "assets/figures/cvpr20force.png",
+    "venue": "CVPR, 2020",
+    "project_page": "https://ehsanik.github.io/forcecvpr2020/",
+    "pdf": "https://arxiv.org/pdf/2003.12045.pdf"
+  },
+  {
+    "id": "iccv19csm",
+    "title": "Canonical Surface Mapping via Geometric Cycle Consistency",
+    "img": "assets/figures/iccv19csm.png",
+    "venue": "ICCV, 2019",
+    "project_page": "https://nileshkulkarni.github.io/csm/",
+    "pdf": "https://arxiv.org/pdf/1907.10043.pdf"
+  },
+  {
+    "id": "eccv18cmr",
+    "title": "Learning Category-Specific Mesh Reconstruction from Image Collections",
+    "img": "assets/figures/arxiv18cmr.png",
+    "venue": "ECCV, 2018",
+    "project_page": "https://akanazawa.github.io/cmr/",
+    "pdf": "https://arxiv.org/pdf/1803.07549.pdf"
+  },
+  {
+    "id": "cvpr17drc",
+    "title": "Multi-view Supervision for Single-view Reconstruction via Differentiable Ray Consistency",
+    "img": "assets/figures/cvpr17drc.png",
+    "venue": "CVPR, 2017",
+    "project_page": "https://shubhtuls.github.io/drc/",
+    "pdf": "https://arxiv.org/pdf/1704.06254.pdf"
+  },
+  {
+    "id": "cvpr17abstraction",
+    "title": "Learning Shape Abstractions by Assembling Volumetric Primitives",
+    "img": "https://shubhtuls.github.io/volumetricPrimitives/resources/images/teaser.png",
+    "venue": "CVPR, 2017",
+    "project_page": "https://shubhtuls.github.io/volumetricPrimitives/",
+    "pdf": "https://arxiv.org/pdf/1612.00404.pdf"
+  },
+  {
+    "id": "cvpr15csdm",
+    "title": "Category-Specific Object Reconstruction from a Single Image",
+    "img": "assets/figures/cvpr15reconstruction.png",
+    "venue": "CVPR, 2015",
+    "project_page": "http://www.cs.berkeley.edu/~akar/categoryShapes/",
+    "pdf": "https://arxiv.org/pdf/1411.6069.pdf"
+  }
+]
+</script>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div><a href="https://www.ri.cmu.edu/">Robotics Institute</a> &middot; <a href="https://www.cs.cmu.edu/">School of Computer Science</a> &middot; <a href="https://www.cmu.edu/">Carnegie Mellon University</a></div>
+    <div class="footer__line">Physical Perception Lab &middot; Pittsburgh, PA 15213</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/featured.js"></script>
+</body>
+</html>

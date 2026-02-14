@@ -1,0 +1,9 @@
+title:: Diffusion-Guided Reconstruction of Everyday Hand-Object Interaction Clips
+img:: https://judyye.github.io/data/iccv23.gif
+author:: Yufei Ye, Poorvi Hebbar, Abhinav Gupta, Shubham Tulsiani
+venue:: ICCV, 2023
+pdf:: https://arxiv.org/pdf/2309.05663.pdf
+project page:: https://judyye.github.io/diffhoi-www/
+bibtex:: bibs/iccv23diffhoi.txt
+code:: https://github.com/JudyYe/diffhoi
+topics:: 3d-reconstruction, object-understanding

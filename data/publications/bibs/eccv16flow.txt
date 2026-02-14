@@ -1,0 +1,10 @@
+@incollection{appFlowZhou16,
+author = {Tinghui Zhou and
+Shubham Tulsiani and
+Weilun Sun and
+Jitendra Malik and
+Alexei A. Efros},
+title = {View Synthesis by Appearance Flow},
+booktitle = {ECCV},
+year = {2016}
+}

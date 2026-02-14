@@ -1,0 +1,6 @@
+@inproceedings{lin2024relposepp,
+    title={RelPose++: Recovering 6D Poses from Sparse-view Observations},
+    author={Lin, Amy and Zhang, Jason Y and Ramanan, Deva and Tulsiani, Shubham},
+    booktitle={3DV},
+    year={2024}
+}
