@@ -2,7 +2,7 @@
 """Build script for Physical Perception Lab website.
 
 Reads publication .txt files + people.json + HTML templates and generates
-index.html, projects.html, and people.html.
+index.html, publications.html, and people.html.
 
 Usage: python build/build.py  (from the ppl/ directory)
 """
@@ -395,13 +395,13 @@ def build_index():
 
 
 def build_projects():
-    """Build the projects.html page."""
+    """Build the publications.html page."""
     template = read_file(os.path.join(TEMPLATE_DIR, 'projects_template.html'))
     projects_html = build_projects_html()
     content = template.replace('{{PROJECTS_HTML}}', projects_html)
     scripts = '<script src="js/projects.js"></script>'
     page = render_page('Publications', content, 'projects', scripts)
-    out_path = os.path.join(ROOT, 'projects.html')
+    out_path = os.path.join(ROOT, 'publications.html')
     with open(out_path, 'w') as f:
         f.write(page)
     print(f'  Generated {out_path}')
