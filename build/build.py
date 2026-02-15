@@ -400,7 +400,7 @@ def build_projects():
     projects_html = build_projects_html()
     content = template.replace('{{PROJECTS_HTML}}', projects_html)
     scripts = '<script src="js/projects.js"></script>'
-    page = render_page('Projects', content, 'projects', scripts)
+    page = render_page('Publications', content, 'projects', scripts)
     out_path = os.path.join(ROOT, 'projects.html')
     with open(out_path, 'w') as f:
         f.write(page)
